@@ -1,4 +1,4 @@
-# Linux_-pingud
+# SSH-hendus-v-tmega-arenduskeskond
 TTHK-st õpitud Linux teadmised
 
 1. Lae alla "apache2" ja "openssh-server".
