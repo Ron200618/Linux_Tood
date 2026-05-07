@@ -1,0 +1,124 @@
+# Truenas-Operatsioonis-steem
+TTHK-st opitud teemad
+
+Lae alla TrueNAS iso fail internetist:
+https://www.truenas.com/download-truenas-community-edition/
+
+Sa pead sisestama emaili, et alla laadida (sisesta suvaline email see ei päe sinu päris email olema)
+
+
+2. Mine Oracle Virtualboxi ning tee uus VM
+Pane ISO Imageks enda allalaetud ISO fail, ning ole kindel et Operatsioonisüstemi kirjeldus on sama nagu alloleval pildil.
+
+<img width="657" height="146" alt="image" src="https://github.com/user-attachments/assets/cfe027c8-2af5-4664-bb2d-b405f30682ec" />
+
+Võid natukene RAM-i ja CPUd juurde panna kuid  ei ole vajalik.
+
+3. Käivita VM ning järgi installimise samme.
+
+4. Kui on installitud, palub TrueNAS et sa rebootiksid enda VM-i
+Peale seda kui sa oled masina välja lülitanud, mine virtuaalmasina seadetesse ning tee järgnevad muudatused.
+Eemalda TrueNAS-SCALE-25*.iso fail Storage alt.
+
+<img width="745" height="273" alt="image" src="https://github.com/user-attachments/assets/dc53596b-0042-4a99-adc0-9d0e9d012b74" />
+Mine network seadetesse ning tee uus port forwarding:
+
+ <img width="855" height="101" alt="image" src="https://github.com/user-attachments/assets/93519a86-4303-480f-9a3b-3a8b3f03eb6c" />
+
+
+Lisa Storage alt uus Hard Disk:
+
+<img width="762" height="452" alt="image" src="https://github.com/user-attachments/assets/4756285e-15cb-440e-851b-572d5bebc4fc" />
+
+<img width="254" height="155" alt="image" src="https://github.com/user-attachments/assets/a56cb290-7266-4cb7-913e-574925076c2f" />
+
+Vajuta create
+
+<img width="97" height="90" alt="image" src="https://github.com/user-attachments/assets/4b87a055-25fa-41b0-9b56-59d5ad4f98d4" />
+
+
+Umbes 50gb on ok, võid ka vähem panna.. vajuta create ja siis paremal all choose.
+<img width="537" height="368" alt="image" src="https://github.com/user-attachments/assets/7bfdc577-d57c-4381-b81b-71b2d889b529" />
+
+Sul peaks tulema Controller: SATA alla uus disk.
+
+<img width="336" height="196" alt="image" src="https://github.com/user-attachments/assets/7d9bc334-3287-4c08-b6b6-bfd5d6832e61" />
+
+Nüüd võid VM uuesti käivitada. Ja peaks avanema sul selline vaade:
+<img width="418" height="274" alt="image" src="https://github.com/user-attachments/assets/3a44a3f2-a339-416c-846a-ee3774c16fbd" />
+
+Võid minimaliseerida VM-i akna ning mine http://localhost:8080/
+Sinu kasutajanimi peaks olema "truenas_admin"
+
+<img width="1058" height="839" alt="image" src="https://github.com/user-attachments/assets/67e5c3d6-f9c0-4a9d-8819-50986f096c43" />
+
+<img width="1023" height="825" alt="image" src="https://github.com/user-attachments/assets/31323d98-bc8b-4ad7-a48c-2de4048e91f8" />
+
+Osa 2:
+
+Mine "Storage" alt ja "Create a Pool".
+<img width="1121" height="457" alt="image" src="https://github.com/user-attachments/assets/c735aac3-a58d-4d0d-bbf7-b49e7178c4bd" />
+
+<img width="700" height="660" alt="image" src="https://github.com/user-attachments/assets/0f50b9db-d304-499e-bd68-1dfed485b8ef" />
+
+
+<img width="1119" height="258" alt="image" src="https://github.com/user-attachments/assets/bd21373d-80ee-4546-93fe-84f450ecaece" />
+
+See on meie kõvaketta dashboard. Saame jälgida kõike vajalikku.
+
+
+
+Nüüd laeme alla nextcloudi.
+
+<img width="1123" height="413" alt="image" src="https://github.com/user-attachments/assets/3cdac910-daee-4018-a974-8ae48a70d4c2" />
+
+Lisan alla pildid enda konfiguratsioonist, ei soovita midagi teistsugust teha.
+
+<img width="511" height="831" alt="image" src="https://github.com/user-attachments/assets/9aba3110-23e5-4f4a-a47e-1f98154f704f" />
+
+<img width="555" height="535" alt="image" src="https://github.com/user-attachments/assets/9bea7911-81dc-4692-9b06-8f686e7a41a7" />
+
+<img width="485" height="930" alt="image" src="https://github.com/user-attachments/assets/8e971938-ed6b-4443-9506-92ef1695238b" />
+
+Juhul kui installation failib, proovi 2-3 korda uuesti. Mina pidin 3 korda vajutama install et ta errorit ei paneks.
+
+<img width="1117" height="520" alt="image" src="https://github.com/user-attachments/assets/ce8575c2-6626-49e1-93a8-c2eec5691d2f" />
+
+tee see (ära unusta masinat enne välja lülitada):
+
+Tee nextcloudis admin kontoga 2 uut kasutajat - kasutaja1 ja kasutaja2.
+
+<img width="1124" height="261" alt="image" src="https://github.com/user-attachments/assets/340a2fb6-2adc-4051-a383-fb202d51f615" />
+jaga neid faile kasutaja2-ga.
+
+<img width="1120" height="282" alt="image" src="https://github.com/user-attachments/assets/4c7580d5-b224-4092-a179-5a215c14e9fc" />
+
+Logi sisse kasutaja2-ga, ning vaata kas sul on jagatud fail.
+
+BOOM! Ja oledki loonud enda google draivi mida saad hostida näiteks enda kodus, siis sa ei pea google draivi eest maksma. Ainuke asi mis teha tuleks oleks see veebileht avalikuks teha.
+
+Selleks mine lehele ngrok.com
+Tee endale konto ning leia enda authtoken.
+
+<img width="848" height="432" alt="image" src="https://github.com/user-attachments/assets/2abf10fa-8925-42c4-a304-462b203a1686" />
+
+
+Mine enda localhostis TrueNASis system>shell.
+Kopeeri järgnevad käsid sinna.
+
+docker pull ngrok/ngrok:latest
+
+Ja 
+
+docker run --net=host -it -e NGROK_AUTHTOKEN=SINU_TOKEN ngrok/ngrok:latest http 30027
+
+See peaks tegema sinu veebilehe avalikuks.
+
+Tee kuvatõmmis järgnevast 2st asjast.
+Enda shellist kus on näha et sa oled ngroki tööle pannud:
+
+<img width="835" height="465" alt="image" src="https://github.com/user-attachments/assets/00433d1b-2f5f-4682-a771-3a69d83bb8db" />
+
+ja pilt sinu avalikust nextcloudi veebilehest (link peab näha olema)
+
+<img width="1125" height="277" alt="image" src="https://github.com/user-attachments/assets/97e8e2cd-9a12-4a6c-adf3-82ff31b9ae53" />
