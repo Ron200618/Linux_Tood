@@ -1,12 +1,4 @@
 # Visuaalne-serverihaldus
-Pole uleslaetud
-See ülesanne tuleb teha ubuntu serveris mitte desktopis.
-Ettevalmistus: Lisa endale 3 uut ketast VMi.
-
-Lae alla teenus: cockpit ja cockpit-storaged
-Offical url: https://cockpit-project.org/
-Kirjelda dokumentatsioonis oma sõnadega mis see on ja too 2 näided kuna see päris elus kasuks tuleb.
-
 
 Eesmärk: Sinu ülesanne on seadistada Linuxi server, hallata kettaid (LVM), võrku ja teenuseid, kasutades selleks spetsiaalset veebipõhist haldusliidest Cockpit. Ajaline limiit: 3 tundi.
 
@@ -83,3 +75,44 @@ Storage vaade: Pilt peab tõestama, et Volume Group company_storage koosneb kahe
 Logs vaade: Tekita süsteemis mingi viga (näiteks proovi vale parooliga sisse logida või tee vigane konfiguratsioon) ja filtreeri Cockpiti logidest välja see konkreetne veateade.
 Timers vaade: Pilt, kus on näha sinu loodud taimer ja selle "Next Run" aeg.
 Terminali vaade (brauseris): Tõestus, et failis /var/log/disk_usage.log on andmed olemas.
+
+## minu osa
+
+Cockpit on interaktiivne ja veebipõhine graafiline kasutajaliides Linuxi serverite
+haldamiseks. See on loodud selleks, et muuta süsteemi administreerimine lihtsamaks ja
+visuaalsemaks, ilma et peaksid kõiki käsurida käske peast teadma
+# 1.
+<img width="585" height="552" alt="image" src="https://github.com/user-attachments/assets/5e66c670-9487-4cf5-9916-dfe66665d686" />
+# 2.
+<img width="568" height="539" alt="image" src="https://github.com/user-attachments/assets/bfdfdc5c-4590-4adf-b46a-4a772e89ada6" />
+# 3.
+<img width="572" height="160" alt="image" src="https://github.com/user-attachments/assets/52aabab0-af69-48bc-bd34-d5ea7be00c69" />
+Tegin mõlemal encrypt
+<img width="560" height="215" alt="image" src="https://github.com/user-attachments/assets/d0051860-b3db-4223-adf8-3a9be5a0aeaf" />
+
+
+# 4. kasutajad
+<img width="408" height="213" alt="image" src="https://github.com/user-attachments/assets/f5309ea9-eb41-47da-8301-3cd5c25d4c40" />
+
+<img width="565" height="445" alt="image" src="https://github.com/user-attachments/assets/292ecb6d-913a-445c-a02e-235155dd9f44" />
+
+<img width="552" height="409" alt="image" src="https://github.com/user-attachments/assets/4e8bb4ac-f092-40f7-a9d5-889140363430" />
+
+<img width="556" height="425" alt="image" src="https://github.com/user-attachments/assets/4cc2dbb9-0761-4c63-844b-747680e01a21" />
+
+# 5.
+
+<img width="568" height="162" alt="image" src="https://github.com/user-attachments/assets/28db9366-37b4-4a06-bf2b-5128bbed78b7" />
+
+<img width="537" height="694" alt="image" src="https://github.com/user-attachments/assets/62118bc2-b45d-4b8c-b386-03552fd5ea6a" />
+
+<img width="286" height="176" alt="image" src="https://github.com/user-attachments/assets/7e12063a-bac6-456e-8ee1-0bdfbaf91b0d" />
+
+# 6.
+6.2
+<img width="579" height="240" alt="image" src="https://github.com/user-attachments/assets/0a385f02-1581-427d-9e7f-b177165ef29b" />
+
+6.3
+<img width="424" height="230" alt="image" src="https://github.com/user-attachments/assets/cd715608-dcc3-492e-a331-fa93d0b2c56d" />
+6.4 
+<img width="756" height="90" alt="image" src="https://github.com/user-attachments/assets/d2b085bd-9db2-428d-9e5b-700ab0ddec7d" />
