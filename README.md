@@ -8,17 +8,6 @@ See repositoorium koondab minu praktilised Linuxi, serverihalduse, võrgu, autom
 
 ---
 
-## Sisukord
-- [Minust](#minust)
-- [Oskused ja tööriistad](#oskused-ja-tööriistad)
-- [Esiletõstetud projektid](#esiletõstetud-projektid)
-- [Projektid](#projektid)
-- [Harjutused ja laborid](#harjutused-ja-laborid)
-- [Repositooriumi struktuur](#repositooriumi-struktuur)
-- [Kuvatõmmised](#kuvatõmmised)
-- [Käivitamine / kasutamine](#käivitamine--kasutamine)
-- [Kontakt](#kontakt)
-
 ## Minust
 Olen IT-õppija, kes keskendub Linuxi süsteemihaldusele ja DevOps-laadsele töövoole. Selles portfoolios on samm-sammult dokumenteeritud ülesanded, kus lahendan päris serveri- ja võrguolukordi ning automatiseerin korduvaid tegevusi.
 
@@ -26,7 +15,7 @@ Olen IT-õppija, kes keskendub Linuxi süsteemihaldusele ja DevOps-laadsele tö�
 - **Operatsioonisüsteemid:** Ubuntu, Kali Linux, TrueNAS
 - **Serverid ja teenused:** Apache2, Samba, SSH, Nextcloud, Minecraft server
 - **Automatiseerimine:** Bash, n8n, cron, logimine ja varundus
-- **Võrk ja turvalisus:** port forwarding, tulemüür, Wireshark, kasutajaõigused
+- **Võrk ja turvalisus:** pordi suunamine, tulemüür, Wireshark, kasutajaõigused
 - **Virtualiseerimine:** Oracle VirtualBox, VM-i seadistamine ja taastamine
 - **Versioonihaldus:** Git ja GitHub
 
@@ -34,13 +23,13 @@ Olen IT-õppija, kes keskendub Linuxi süsteemihaldusele ja DevOps-laadsele tö�
 - [Väikeettevõtte Linux server](./V-ikeettev-tte-Linux-server.md)  
   Täislahenduse kirjeldus väikeettevõtte vajadustele: teenused, kasutajad, ligipääsud ja haldusprotsessid. Projekt näitab süsteemi planeerimise ja töökindla juurutuse oskust.
 
-- [Linux webserver automation](./linux-webserver-automation.md)  
+- [Linuxi veebiserveri automatiseerimine](./linux-webserver-automation.md)  
   Automatiseeritud veebiserveri seadistuse ülesanne, kus käsitsi tehtavad sammud viiakse skriptidesse. Tulemus vähendab vigade arvu ja kiirendab korduvat juurutust.
 
 - [Haldustegevuste automatiseerimine n8n-is](./Haldustegevused-automatiseerimine-n8nis.md)  
   n8n töövood serveri monitooringuks ja haldustegevuste automatiseerimiseks. Fookus on sündmuspõhisel haldusel ning admini ajakulu vähendamisel.
 
-- [Rakenduse live-viimine kahe serveriga (load balancing)](./rakenduse-live-viimine-2-serveriga-load-balancing.md)  
+- [Rakenduse avalikuks viimine kahe serveriga (koormusjaotus)](./rakenduse-live-viimine-2-serveriga-load-balancing.md)  
   Praktika kahe serveri vahel koormuse jaotamiseks ja rakenduse töökindluse tõstmiseks. Näitab teadmisi skaleerimise ja kõrge käideldavuse alustes.
 
 ## Projektid
@@ -52,11 +41,11 @@ Olen IT-õppija, kes keskendub Linuxi süsteemihaldusele ja DevOps-laadsele tö�
   Nextcloudi juurutus, kasutajate loomine ja põhiline failihalduse töövoog. Harjutus kinnistab privaatpilve praktilise kasutuse aluseid.
 
 - [NextCloud ülesanded (osa 2)](./NextCloudi-ulesanded-p2)  
-  Edasijõudnud Nextcloudi haldus: CLI-käsud, kasutajahaldus, hooldusskript ja ligipääsu testimine. Projekt näitab, kuidas teenust hallata nii GUI kui käsurea kaudu.
+  Edasijõudnud Nextcloudi haldus: käsurea käsud, kasutajahaldus, hooldusskript ja ligipääsu testimine. Projekt näitab, kuidas teenust hallata nii graafilise liidese kui käsurea kaudu.
 
 ### Veebi- ja failiteenuste automatiseerimine
 - [Bash + PHP (osa 1)](./bash-php.md)  
-  Apache2 veebilehe ja Bash-skriptide sidumine, et veebitoimingud käivitaksid taustal käske. Aitab mõista lihtsa web-to-shell automatiseerimise loogikat.
+  Apache2 veebilehe ja Bash-skriptide sidumine, et veebitoimingud käivitaksid taustal käske. Aitab mõista lihtsa veebi-käsurea automatiseerimise loogikat.
 
 - [Bash + PHP (osa 2)](./bash-php-%20part%202.md)  
   Esimese osa edasiarendus, kus veebist saadud andmeid töödeldakse ja salvestatakse süsteemselt. Harjutus parandab andmevoo ja skriptimise oskust.
@@ -68,10 +57,10 @@ Olen IT-õppija, kes keskendub Linuxi süsteemihaldusele ja DevOps-laadsele tö�
   Turvalisema failiüleslaadimise ülesanne, kus ligipääs on kaitstud. Fookus on lihtsal autentimisel ja teenuse turvalisemal kasutusel.
 
 ### Minecraft serveri lahendused
-- [Initial Minecraft server setup](./Initial-minecraft-server-setup.md)  
+- [Minecrafti serveri algseadistus](./Initial-minecraft-server-setup.md)  
   Minecraft serveri baasseadistus Ubuntu keskkonnas. Annab vundamendi teenuse käivitamiseks ja edasiseks automatiseerimiseks.
 
-- [Minecraft server – arhitektuur ja backupi plaan](./Minecraft-server-1)  
+- [Minecrafti server – arhitektuur ja varundusplaan](./Minecraft-server-1)  
   Serveri failipuu, varunduse, logimise ja RAID-põhise salvestuse planeerimine. Projekt näitab infrastruktuuri mõtlemist ning töökindluse disaini.
 
 - [Minecraft serveri töö esitamine](./minecrafti-serveri-t-esitamine.md)  
@@ -91,7 +80,7 @@ Olen IT-õppija, kes keskendub Linuxi süsteemihaldusele ja DevOps-laadsele tö�
 - [Kordav ülesanne: kasutajad ja õigused](./KORDAV-LESANNE-KASUTAJAD-JA-IGUSED.md)  
   Kasutajate/gruppide õiguste haldus praktilises stsenaariumis. Näitab, kuidas ligipääse turvaliselt piirata ja avada.
 
-- [Linux tools – iseseisev õppimine](./Linux-tools-iseseisev-ppimine.md)  
+- [Linuxi tööriistad – iseseisev õppimine](./Linux-tools-iseseisev-ppimine.md)  
   Iseseisev probleemilahendus Linuxi tööriistadega. Harjutus arendab dokumentatsiooni lugemise ja kiire katsetamise oskust.
 
 - [Linuxi käsurea meistriklass](./Linuxi%20K%C3%A4surea%20Meistriklassi.md)  
@@ -100,7 +89,7 @@ Olen IT-õppija, kes keskendub Linuxi süsteemihaldusele ja DevOps-laadsele tö�
 - [Visuaalne serverihaldus](./Visuaalne-serverihaldus.md)  
   Serveri haldus veebiliidese abil (sh LVM, võrk ja teenused). Sobib hästi CLI-teadmiste täiendamiseks visuaalse halduse poolel.
 
-- [Broken VM](./Broken-VM.md)  
+- [Katkine virtuaalmasin](./Broken-VM.md)  
   Katkise virtuaalmasina taastamise ülesanne. Näitab veaotsingu, parandamise ja süsteemi töökorras kinnitamise oskust.
 
 ### SSH, Git ja kaugühendus
@@ -110,7 +99,7 @@ Olen IT-õppija, kes keskendub Linuxi süsteemihaldusele ja DevOps-laadsele tö�
 - [SSH ühendus võtmega arenduskeskkonda](./SSH-hendus-v-tmega-arenduskeskond.md)  
   Võtmepõhine autentimine ja turvalisem SSH kasutus. Harjutus vähendab paroolipõhise ligipääsu riske.
 
-- [Online ülesanne SSH-ga](./Online-lesanne-SSH-ga.md)  
+- [Veebipõhine ülesanne SSH-ga](./Online-lesanne-SSH-ga.md)  
   Bandit-tüüpi SSH väljakutse, mis treenib käsurida ja turvalisuse mõtlemist. Tugevdab probleemilahendust järjestikuste ülesannete kaudu.
 
 - [GitHub + Apache2 versioonihaldus](./GitHub-Apache2-versioonihaldus.md)  
@@ -131,7 +120,7 @@ Olen IT-õppija, kes keskendub Linuxi süsteemihaldusele ja DevOps-laadsele tö�
 Linux_Tood/
 ├── README.md
 ├── *.md                         # Ülesanded, projektid ja dokumentatsioon
-├── Minecraft-server-1           # Minecrafti arhitektuuri/backupi dokument
+├── Minecraft-server-1           # Minecrafti arhitektuuri/varunduse dokument
 ├── NextCloudi-ulesanded-p2      # Nextcloudi osa 2 dokument
 └── Truenas-Operatsioonis-susteem# TrueNAS + Nextcloudi praktiline töö
 ```
@@ -153,4 +142,4 @@ Kuna tegu on dokumentatsioonipõhise portfoolioga, saab materjale kasutada nii:
 - **Repositoorium:** [Ron200618/Linux_Tood](https://github.com/Ron200618/Linux_Tood)
 
 ---
-Kui soovid, võin järgmise sammuna teha ka ingliskeelse CV-versiooni samast README-st (EST + ENG), et seda oleks mugavam tööavaldustes kasutada.
+Kui soovid, võin järgmise sammuna teha samast README-st ka ingliskeelse CV-versiooni, et seda oleks mugavam tööavaldustes kasutada.
