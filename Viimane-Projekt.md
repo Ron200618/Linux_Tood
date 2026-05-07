@@ -451,6 +451,7 @@ done
 <img width="520" height="85" alt="image" src="https://github.com/user-attachments/assets/1ea74b41-44e3-492a-9c55-c5f03e0b706d" />
 
 Lühike juhend (step-by-step): "Kui server hävineb, kuidas ma taastan
+
 Advokaadibüroo andmed kaustast /srv/bac
 
 Juhul kui see laguneb, siis on olemas backupfail
@@ -462,3 +463,13 @@ sudo tar -xzvf backup_advokaat_2026-01-19.tar.gz -C /srv/clients/advokaat_root/
 Ja siis määrame õigused
 sudo chown -R advokaat_juhataja:grp_advokaat /srv/clients/advokaat_root/advokaat
 sudo chmod -R 750 /srv/clients/advokaat_root/advokaat
+
+<img width="891" height="438" alt="image" src="https://github.com/user-attachments/assets/165994ab-6e63-4d16-b900-d4c61d999196" />
+
+
+<img width="988" height="498" alt="image" src="https://github.com/user-attachments/assets/06a82c6e-0275-42f1-ac8b-f3d6e882c32b" />
+
+<img width="572" height="312" alt="image" src="https://github.com/user-attachments/assets/54774783-2598-4daa-9e4f-6b666efd1135" />
+
+
+<img width="988" height="498" alt="image" src="https://github.com/user-attachments/assets/06a82c6e-0275-42f1-ac8b-f3d6e882c32b" />
