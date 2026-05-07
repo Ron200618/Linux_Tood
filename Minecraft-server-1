@@ -1,0 +1,90 @@
+# Minecraft-server-1
+
+Hetkene checklist:
+Minectaft (edaspidi MC) töötab PaperMC-l, dockeris.
+Failid ja maailmad on hetkel lokaalselt data kaustas
+Port 25565 on avatud ühenduseks.
+kogu seadistus on ainult 1 fail ( docker compose.yml)
+
+Meie peamine seadistus peaks asuma ****.yml failis.
+
+Hetkel on meil seal basic minecrafti setup.
+Et alustada järgmiste sammudega, peaksime panema kokku plaani, kuidas mis töötab.
+Me teame, et lõpplahendus kuhu me jõuda tahame, on järgnev:
+Minecrafti server millel on järgmised funktsionaalsused:
+1. Vajalike failid backup nii pilvele, kui ka kõvakettale
+2. Kõvakettale salvestatud failid on RAID konfigratsiooniga.
+3. Automaatskriptid, mis teevad logisid, salvestavad neid, teevad scripte, ja teavitavad tõrke korral ja võimalusel eemaldavad tõrke.
+
+Need on 3 esimest funktsiooni mis me teha tahame.
+Nüüd peate panema paika plaani, kuidas terve süsteem näeb välja teie failipuus. Mis andmed on kus kettal ja kaustas ning kus on meie backupid ja logid jne.
+Niiet tehke endale dokumentatsioon, kuidas teie ise soovite enda serveri lahendust implementeerida.
+Lahendus võiks näha välja midagi sarnast:
+<img width="541" height="440" alt="image" src="https://github.com/user-attachments/assets/6a22c0e3-75a6-4f82-9e1e-9aae5b3dab53" />
+
+Sellele mis pildil kuvatud on on vaja ka kirjeldust, millist RAID süsteemi sa kasutad, kui kasutad näiteks RAID5 süsteemi, siis peab olema kirjeldatud mis kõvaketastel mis failid salvestuvad, millised on mirrored jne. Samuti peab olema kirjeldatud mis failid salvestad pilve ja kuhu pilve, soovitav on logi scriptid ja .yml fail ainult pilve salvestada, sest muidu võtab liiga palju mälu. Platvormi, kuhu pilve salvestada enda failid võid valida ise, mina soovitan githubi.
+
+Ehk kokkuvõtteks, võiks olla sul endal välja kirjutatud dokumentatsioon, mis ütleb kus kaustades asuvad meie scriptid, logid, ja backupid.
+
+
+# minu osa
+
+/srv/minecraft/ 
+├── world/                         # Mängumaailma failid 
+├── server.jar                     # Minecrafti serveri fail 
+├── scripts/                        
+│   ├── backup_cloud.sh            # Pilve varunduse skript 
+│   ├── backup_local.sh            # Kohalik backup RAID kettale 
+│   ├── log_check.sh               # Logianalüüs ja tõrke tuvastus 
+│   ├── notify_admin.sh            # Admini teavitamine (nt Discord) 
+│   ├── mod_installer.sh           # Modde installimise skript 
+│   └── custom_settings.sh         # Kohandatud seadistuste rakendamine 
+├── mods/                           
+│   ├── mod1.jar                   # Mod 1 fail 
+│   ├── mod2.jar                   # Mod 2 fail 
+│   └── mod_config/                # Modide konfiguratsioonifailid 
+├── logs/                           
+│   ├── latest.log                 # Serveri käivitamise logi 
+│   ├── backup_report.log          # Backupi aruande logi 
+│   └── error_report.log           # Tõrke aruande logi 
+├── backups/                        
+│   ├── local/                     # RAID5 kettal olevad backupid 
+│   └── cloud/                     # Sünkroon pilve 
+├── config/                         
+│   ├── raid_plan.txt              # RAID5 seadistuse kirjeldus 
+│   ├── settings.yml               # Serveri konfiguratsioon 
+│   ├── server_notifications.yml   # Serveri teavituste seadistused 
+│   └── custom_settings.yml        # Kohandatud serveri seadistused 
+ 
+Backup_local.sh 
+ 
+#!/bin/bash 
+ 
+# Kohalik backup tee 
+BACKUP_DIR="/srv/minecraft/backups/local" 
+TIMESTAMP=$(date +"%Y-%m-%d_%H-%M-%S") 
+BACKUP_PATH="$BACKUP_DIR/backup_$TIMESTAMP" 
+ 
+# Loome backup kausta, kui see ei eksisteeri 
+mkdir -p $BACKUP_PATH 
+ 
+# Varundame maailmad, serveri faili, logid ja konfiguratsioonifailid 
+rsync -av --delete /srv/minecraft/world/ $BACKUP_PATH/world/ 
+rsync -av --delete /srv/minecraft/server.jar $BACKUP_PATH/ 
+rsync -av --delete /srv/minecraft/mods/ $BACKUP_PATH/mods/ 
+rsync -av --delete /srv/minecraft/logs/ $BACKUP_PATH/logs/ 
+rsync -av --delete /srv/minecraft/config/ $BACKUP_PATH/config/ 
+ 
+# Logi salvestamine 
+echo "Backup completed at $(date)" >> /srv/minecraft/logs/backup_report.log 
+
+# uldine
+~/minecraft-server/ 
+├── server/               # Minecrafti serveri failid 
+├── backups/              # Lokaalsed varundused 
+│   ├── daily/ 
+│   ├── weekly/ 
+│   └── monthly/ 
+├── logs/                 # Serveri ja skriptide logid 
+├── scripts/              # Automaat- ja hooldusskriptid 
+└── config/               # Konfiguratsioonifailid 
