@@ -131,11 +131,6 @@ Repositooriumis ei ole eraldi pildifaile (`.png/.jpg`) kaustadena versioonihaldu
 - [Nextcloud osa 2 kuvatõmmised](./NextCloudi-ulesanded-p2)
 - [n8n ja serverihalduse vood](./n8n-Osa-2---Kaugjuhitav-Automaatne-Haldus.md)
 
-## Käivitamine / kasutamine
-Kuna tegu on dokumentatsioonipõhise portfoolioga, saab materjale kasutada nii:
-1. Ava huvipakkuv fail otse GitHubis (lingid üleval).
-2. Järgi juhiseid oma VM-is või Linuxi serveris samm-sammult.
-3. Vajadusel kohanda käske oma keskkonna IP-de, kasutajate ja kaustateedega.
 
 ## Kontakt
 - **GitHub:** [@Ron200618](https://github.com/Ron200618)
