@@ -3,4 +3,5 @@
 Eelmises ülesandes panime andmeid veebilehelt tekstifaili kasutades bash scripti.
 Nüüd proovime midagi vastupidist teha, teeme scripti mis kirjutab ise tekstifaili ning need andmed lähevad automaatselt veebilehele.
 
-<img width="612" height="163" alt="image" src="https://github.com/user-attachments/assets/eea33d54-2efc-4e04-981e-0d9b0088d42d" />
+<img width="568" height="160" alt="bash + php 2" src="https://github.com/user-attachments/assets/14e5fd3e-4a07-4fbd-8b53-bb45ddc16336" />
+
