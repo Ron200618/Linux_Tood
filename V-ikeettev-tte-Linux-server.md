@@ -103,19 +103,20 @@ Minu skript on selline:
 See paneb backup folderisse pakitud (.tar.gz") faili, pakime sellepärast et ta võtaks vähe ruumi, ja sinna faili sisse paneme /srv/driimou_share kausta ja kõik logid.
 Failide pakkimine käib üldiselt "tar" käsuga ja kõik mis see tar teeb olenevalt talle järgnevatest argumentidest. Siin all on 3 pilti mis selgitavad selle võimalusi.
 
+<img width="712" height="113" alt="see ja siit edasi" src="https://github.com/user-attachments/assets/efd04121-6c64-4081-a495-260b6ccfae8b" />
+
+<img width="712" height="406" alt="Screenshot 2026-05-11 at 06 53 29" src="https://github.com/user-attachments/assets/c5a13232-0381-4864-a4e3-67e56bbe629c" />
+
+<img width="712" height="357" alt="Screenshot 2026-05-11 at 06 53 39" src="https://github.com/user-attachments/assets/9034c724-56d6-4dfe-98de-03418978bc62" />
+
+<img width="712" height="357" alt="Screenshot 2026-05-11 at 06 53 44" src="https://github.com/user-attachments/assets/4f2359a3-68d0-4580-8057-61a304384b26" />
+
+<img width="712" height="357" alt="Screenshot 2026-05-11 at 06 53 49" src="https://github.com/user-attachments/assets/cd1fc243-5148-4442-a611-f3836458dad2" />
+
+<img width="712" height="179" alt="Screenshot 2026-05-11 at 06 53 55" src="https://github.com/user-attachments/assets/a4b33ff6-4e64-4189-beb1-ab769d243dea" />
 
 
-xxxs
 
-
-
-
-
-<img width="749" height="365" alt="image" src="https://github.com/user-attachments/assets/bcb2aff7-a0c2-43c6-b43e-378b60b42b08" />
-
-<img width="809" height="349" alt="image" src="https://github.com/user-attachments/assets/760176bd-418a-48d9-8be8-d17f6248a82b" />
-
-<img width="787" height="257" alt="image" src="https://github.com/user-attachments/assets/73a17771-90ef-485a-8138-7e4d20afdc8e" />
 
 Nüüd kui oleme scripti käivitanud, veendunud et kõik failid läksid driimou_shared kaustast backup, siis võime selle scripti crontabi lisada.
 Dokumentatsioonis peab olema välja toodud kuidas sa testisid kas see script töötab? Mina testisin nii, et panin 3 faili driimou_shared kausta, panin backup.sh scripti tööle, ning veendusin et pakitud fail on backup kaustas ning ma unpackisin selle siis seal olid kõik minu 3 faili olemas. (Scripti testides tuleb script käivitada sudo õigusega)
@@ -127,27 +128,36 @@ Siis näete, et teil on seal mitu ketast (I: M: O: R: jne jne)
 Meie oleme teinud suhteliselt sama asja.
 
 Näeme, et meie samba failiserver peaks asuma kasutas /srv/
-<img width="1002" height="182" alt="image" src="https://github.com/user-attachments/assets/ca635c11-3547-480c-9194-1e264e82ad71" />
+
+<img width="712" height="122" alt="Screenshot 2026-05-11 at 06 54 26" src="https://github.com/user-attachments/assets/ac9ca173-d80c-4349-8e5f-6b12d1f282c5" />
+
+
 Nüüd me tahame ühineda sinna failiserverisse windowsi arvutist sestsee on kõige populaarsem kontoritöö operatsioonisüsteem.
 Laadige alla windowsi VM.
 
 Muutke nii Ubuntu VM-is ja Windowsi VM-is network setinguid - pange internal peale:
-<img width="560" height="276" alt="image" src="https://github.com/user-attachments/assets/fe6129d2-b024-4f1a-b87b-92b88cd964e4" />
+<img width="558" height="249" alt="Screenshot 2026-05-11 at 06 54 37" src="https://github.com/user-attachments/assets/7a9fd941-ee9a-475e-b186-7d41b8a0eb27" />
+
 
 Tee järgnevad mudatused windosis>mine etherneti setingutesse:
-<img width="764" height="301" alt="image" src="https://github.com/user-attachments/assets/9df0e27c-e02d-41b1-bdac-b1ee24b88571" />
+<img width="558" height="249" alt="Screenshot 2026-05-11 at 06 54 41" src="https://github.com/user-attachments/assets/23c4e048-dbdb-4515-b95f-13b557bb535f" />
+
 
 Vajuta "Adapteri suvandite muutmine:
-<img width="714" height="289" alt="image" src="https://github.com/user-attachments/assets/85af34a7-1790-4b86-b68b-018ee39c8155" />
+<img width="558" height="249" alt="Screenshot 2026-05-11 at 06 54 52" src="https://github.com/user-attachments/assets/3698d0d1-66a2-4519-88d1-11bb3101f0d7" />
+
 
 Vajut Atribuudid:
-<img width="430" height="378" alt="image" src="https://github.com/user-attachments/assets/efafe988-830b-4db9-ab17-39b540e481ad" />
+<img width="441" height="314" alt="Screenshot 2026-05-11 at 06 55 01" src="https://github.com/user-attachments/assets/c28471d5-c55b-40a7-8afd-50606e15de9c" />
+
 
 Vali Internet-protocol version 4 ja siis vajuta uuesti atribuudid:
-<img width="429" height="468" alt="image" src="https://github.com/user-attachments/assets/ed70cc9a-5063-4316-95fc-645b8f8e4be2" />
+<img width="353" height="457" alt="Screenshot 2026-05-11 at 06 55 11" src="https://github.com/user-attachments/assets/72882fb4-d02b-49e7-af67-a111cdb568fb" />
+
 
 Seadista see järgnevalt ja salvesta:
-<img width="449" height="505" alt="image" src="https://github.com/user-attachments/assets/cc3c517b-a214-4f6f-8a84-3903efac59cb" />
+<img width="353" height="457" alt="Screenshot 2026-05-11 at 06 55 15" src="https://github.com/user-attachments/assets/b3421b37-f456-42b1-9476-e8de2fc93bec" />
+
 
 Pane enda ubuntu terminali command:
 sudo ip addr add 10.0.0.20/24 dev enp0s3
@@ -159,52 +169,63 @@ Ja veendu et see muutus sinu IP-ks - (ipconfig)
 
 Proovi windowsi arvutist pingida ubuntu masinat, kui vastus on positiivne, siis võiks töötada.
 
-<img width="508" height="209" alt="image" src="https://github.com/user-attachments/assets/97d0972b-c503-40de-9fd7-c719b5025c77" />
+<img width="503" height="231" alt="Screenshot 2026-05-11 at 06 55 23" src="https://github.com/user-attachments/assets/05e65192-8bfd-4636-bcd2-b0133ca9c6ec" />
+
 
 Minge Windowsis file explorerisse, ning proovige ühendada ennast mingisse kausta millele te endale õiguse olete andnud:
 
-<img width="375" height="196" alt="image" src="https://github.com/user-attachments/assets/266d1667-d3f2-4a9d-9118-9b7142fa37b0" />
+<img width="386" height="197" alt="Screenshot 2026-05-11 at 06 55 32" src="https://github.com/user-attachments/assets/289f0575-174c-4faa-a0f3-6759c19c5ece" />
 
+<img width="713" height="526" alt="Screenshot 2026-05-11 at 06 55 41" src="https://github.com/user-attachments/assets/8431fc71-dbf2-4cf3-a22d-1562aaa2d28c" />
 
-<img width="1014" height="773" alt="image" src="https://github.com/user-attachments/assets/79c60dbf-731c-4d04-a6b8-e673c15d4156" />
+<img width="465" height="222" alt="Screenshot 2026-05-11 at 06 55 52" src="https://github.com/user-attachments/assets/5b1a6bc9-2250-4487-bfd8-52a806cd64ab" />
 
-<img width="442" height="219" alt="image" src="https://github.com/user-attachments/assets/5ac48cbb-bed8-4489-b86b-cb24618cdce9" />
+<img width="729" height="176" alt="Screenshot 2026-05-11 at 06 56 00" src="https://github.com/user-attachments/assets/b0675142-36ec-4bf5-bd0c-b89f8fabf2fa" />
 
-<img width="784" height="217" alt="image" src="https://github.com/user-attachments/assets/4a544488-1c6f-4ee8-96a1-d8c2e7b7f59b" />
+<img width="411" height="368" alt="Screenshot 2026-05-11 at 06 56 10" src="https://github.com/user-attachments/assets/bc6240f9-1461-4538-937d-ef58ce02a333" />
 
-<img width="408" height="403" alt="image" src="https://github.com/user-attachments/assets/5275c167-95da-4174-9cd3-d3c8e4618dc8" />
+<img width="411" height="368" alt="Screenshot 2026-05-11 at 06 56 13" src="https://github.com/user-attachments/assets/9d018e0e-3e8d-413d-af4f-902aea976cc6" />
 
-<img width="394" height="395" alt="image" src="https://github.com/user-attachments/assets/536cd516-e88b-412c-b844-7e293acf9b1b" />
+<img width="411" height="368" alt="Screenshot 2026-05-11 at 06 56 16" src="https://github.com/user-attachments/assets/89b82287-a9a6-4f5e-b82b-49b73ed18815" />
 
-<img width="761" height="398" alt="image" src="https://github.com/user-attachments/assets/43b71836-f32c-4bc6-b852-cd7b1c184670" />
+<img width="603" height="218" alt="Screenshot 2026-05-11 at 06 56 26" src="https://github.com/user-attachments/assets/39448945-3905-492b-a1d9-6a5e43433286" />
 
-<img width="591" height="337" alt="image" src="https://github.com/user-attachments/assets/5d56ac21-2a14-4181-a520-8fc11bec68b5" />
+<img width="717" height="104" alt="Screenshot 2026-05-11 at 06 56 43" src="https://github.com/user-attachments/assets/8b2e8e5b-f090-4f10-88f8-c8d2eac7dc40" />
+
 
 # minu tehtud osa
 
-<img width="601" height="371" alt="image" src="https://github.com/user-attachments/assets/ab1dc6a6-f92f-4838-b928-17cc2078aa8d" />
+<img width="597" height="365" alt="Screenshot 2026-05-11 at 06 45 40" src="https://github.com/user-attachments/assets/0e85e613-02ce-4c74-a647-661f4a0802f4" />
 
-<img width="601" height="464" alt="image" src="https://github.com/user-attachments/assets/a676809a-afb6-450d-afca-55fe140fec1d" />
+<img width="597" height="444" alt="Screenshot 2026-05-11 at 06 46 09" src="https://github.com/user-attachments/assets/d13e06f2-f2fd-4bc8-84fb-80efcee94cbe" />
 
-<img width="595" height="335" alt="image" src="https://github.com/user-attachments/assets/a0f9d83f-9b81-4cfb-8361-8173a12ecbc2" />
+<img width="597" height="327" alt="Screenshot 2026-05-11 at 06 46 16" src="https://github.com/user-attachments/assets/5d24f2fa-4c20-4cee-a17e-650c9d44146c" />
 
-<img width="603" height="141" alt="image" src="https://github.com/user-attachments/assets/c223e0a8-bde8-4f80-877e-9b2b3b9d5fa5" />
+<img width="597" height="141" alt="Screenshot 2026-05-11 at 06 46 27" src="https://github.com/user-attachments/assets/b8074844-a3e1-4d1a-a057-979ba8aded22" />
 
-<img width="602" height="130" alt="image" src="https://github.com/user-attachments/assets/e70cd1e8-15f7-456c-9a45-64d0033064db" />
+<img width="597" height="141" alt="Screenshot 2026-05-11 at 06 46 34" src="https://github.com/user-attachments/assets/071c4134-7825-40e5-8946-394e297473ba" />
 
-<img width="597" height="134" alt="image" src="https://github.com/user-attachments/assets/f5b42506-f842-47b3-9826-61b682991170" />
+<img width="597" height="200" alt="Screenshot 2026-05-11 at 06 46 40" src="https://github.com/user-attachments/assets/8b19a592-d118-4e55-b2d4-db0871747507" />
 
-<img width="608" height="203" alt="image" src="https://github.com/user-attachments/assets/b1c1849b-00ca-41cb-8029-1181f8f0ffee" />
+<img width="597" height="200" alt="e" src="https://github.com/user-attachments/assets/0b41ee6f-26bd-450b-8744-3d57dadaa23c" />
+
 
 Jah, kergem on teha skript, mis teeb kõik basic updatid ära, et oleks kergem edasi liiguda teiste asjadega. 
 
-<img width="609" height="556" alt="image" src="https://github.com/user-attachments/assets/fd77ddf2-dd7e-41ce-b90a-ca6ec18d326d" />
+<img width="597" height="200" alt="Screenshot 2026-05-11 at 06 47 24" src="https://github.com/user-attachments/assets/b1b77c14-eb5a-49a8-82e3-7c4040c81fc0" />
 
-<img width="810" height="746" alt="image" src="https://github.com/user-attachments/assets/017594d0-5b49-4f1a-b09e-bf34134e37a9" />
+<img width="473" height="94" alt="Screenshot 2026-05-11 at 06 47 35" src="https://github.com/user-attachments/assets/292d6d27-017c-41c7-942e-ce3421e373c9" />
 
-<img width="707" height="365" alt="image" src="https://github.com/user-attachments/assets/81b622c0-4528-403f-972d-4b47966e9181" />
+<img width="607" height="379" alt="Screenshot 2026-05-11 at 06 47 46" src="https://github.com/user-attachments/assets/8d6a0731-fafb-4c1a-bd78-3ce8240dd184" />
 
-<img width="442" height="186" alt="image" src="https://github.com/user-attachments/assets/11aa70a2-01bb-482b-ac0f-bd656e5fd6d1" />
+<img width="607" height="166" alt="Screenshot 2026-05-11 at 06 48 01" src="https://github.com/user-attachments/assets/e8d51f47-0b32-46ed-a67e-a8c506d09245" />
+
+<img width="543" height="283" alt="Screenshot 2026-05-11 at 06 48 10" src="https://github.com/user-attachments/assets/0a82da45-b6ae-4d57-b570-59b31a3654f9" />
+
+<img width="352" height="164" alt="Screenshot 2026-05-11 at 06 48 20" src="https://github.com/user-attachments/assets/045899be-21f0-400e-ac72-468eb93208b7" />
+
+<img width="604" height="451" alt="Screenshot 2026-05-11 at 06 48 34" src="https://github.com/user-attachments/assets/8837748a-bc28-49ef-bc9e-3bb0e03f6ae0" />
+
+<img width="209" height="61" alt="Screenshot 2026-05-11 at 06 48 45" src="https://github.com/user-attachments/assets/e3d07a45-e84c-4493-a2bf-7f92fa05ca20" />
 
 
-<img width="250" height="65" alt="image" src="https://github.com/user-attachments/assets/b5ecfe27-06d0-4c04-84db-904d5b288e9c" />
