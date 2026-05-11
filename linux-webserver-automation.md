@@ -18,20 +18,24 @@ sudo a2enmod auth_basic authn_file authz_user
 8. Lisa õigused, et veebilehel saavad enda lehte (ehk opilasenimi.html) vaadata ainult seda faili omav õpilane.
 9. Tee script mis varundab kõik failid mis on /var/www/html-is kausta /var/www/backup iga 5 minuti tagant.
 
-<img width="590" height="253" alt="image" src="https://github.com/user-attachments/assets/ffa5b0de-2fa9-402a-b528-182b60674309" />
+<img width="584" height="256" alt="Screenshot 2026-05-11 at 09 23 04" src="https://github.com/user-attachments/assets/6afc6062-d515-47a4-a589-01c26f521e6c" />
 
-<img width="527" height="308" alt="image" src="https://github.com/user-attachments/assets/c8c8c0bd-dbbd-4f8b-a344-bc5beaca9626" />
+<img width="522" height="256" alt="Screenshot 2026-05-11 at 09 23 10" src="https://github.com/user-attachments/assets/1a103df9-c298-4171-8702-b74f29f47417" />
 
-<img width="603" height="521" alt="image" src="https://github.com/user-attachments/assets/fa26b888-0b67-4696-bf94-c64a08acbdb8" />
+<img width="522" height="256" alt="Screenshot 2026-05-11 at 09 23 15" src="https://github.com/user-attachments/assets/061f5406-a420-4b9a-b26c-ea8d132778d2" />
 
-<img width="598" height="345" alt="image" src="https://github.com/user-attachments/assets/5d5157fc-8f84-4196-9083-d4705a680727" />
 
-<img width="492" height="221" alt="image" src="https://github.com/user-attachments/assets/f56079d6-9745-482a-93ba-5dfa50eb248b" />
+<img width="522" height="256" alt="Screenshot 2026-05-11 at 09 23 21" src="https://github.com/user-attachments/assets/ce1afb3f-9283-4024-b16d-6cb524782e28" />
 
-<img width="598" height="453" alt="image" src="https://github.com/user-attachments/assets/25a08ac5-bf7f-4268-ab30-29b3e0257e58" />
+<img width="485" height="224" alt="Screenshot 2026-05-11 at 09 23 31" src="https://github.com/user-attachments/assets/eb375b28-bdce-4957-9b5f-fc7f9acd2abb" />
 
-<img width="603" height="351" alt="image" src="https://github.com/user-attachments/assets/a1cd374e-9ee7-4adb-b236-23868962d1f0" />
+<img width="606" height="450" alt="Screenshot 2026-05-11 at 09 23 41" src="https://github.com/user-attachments/assets/2b97ac8c-4d1c-4e75-8e08-a974698ba2b2" />
 
-<img width="602" height="333" alt="image" src="https://github.com/user-attachments/assets/5aebb2f8-7d30-4fb6-965d-df9fdae533cb" />
+<img width="606" height="337" alt="Screenshot 2026-05-11 at 09 23 49" src="https://github.com/user-attachments/assets/610c2be8-1124-4e40-988b-8454d34acdb3" />
 
-<img width="605" height="317" alt="image" src="https://github.com/user-attachments/assets/91e68a3e-7ed6-4821-818d-1a5aaf050ea0" />
+<img width="606" height="337" alt="Screenshot 2026-05-11 at 09 23 53" src="https://github.com/user-attachments/assets/48c42886-b0dc-4163-a1cc-e2ebdbfe8f27" />
+
+
+<img width="606" height="318" alt="Screenshot 2026-05-11 at 09 23 59" src="https://github.com/user-attachments/assets/2126084e-ce8a-4169-96ed-9b5b39f601b8" />
+
+
