@@ -23,15 +23,19 @@ Lõpptulemus:
 3. Lisa docsi faili ka sinu avalik giti reposotry link
 4. Lae docsi fail moodlisse üles.
 
-<img width="453" height="261" alt="image" src="https://github.com/user-attachments/assets/c55191f3-77cc-49c6-9475-68e272fda90a" />
+<img width="495" height="271" alt="Screenshot 2026-05-11 at 04 01 22" src="https://github.com/user-attachments/assets/c3f54978-3bd7-4204-bdab-236ef79aac5b" />
+
+<img width="589" height="395" alt="Screenshot 2026-05-11 at 04 01 33" src="https://github.com/user-attachments/assets/e6dd6572-e762-4499-a49f-c926ecd72a5d" />
 
 
-<img width="589" height="386" alt="image" src="https://github.com/user-attachments/assets/322f9234-63e8-4c8a-9f99-78b3c3f88e84" />
+<img width="589" height="395" alt="Screenshot 2026-05-11 at 04 01 38" src="https://github.com/user-attachments/assets/061b9381-daec-4098-8fe9-0c3485c03536" />
 
-<img width="599" height="382" alt="image" src="https://github.com/user-attachments/assets/a91ecbc1-9c96-42a8-a6f0-c0f2df2f4224" />
 
-<img width="562" height="381" alt="image" src="https://github.com/user-attachments/assets/7c6d92f7-03fc-4afb-9e4a-0cf6f71ff27d" />
+<img width="589" height="395" alt="Screenshot 2026-05-11 at 04 01 43" src="https://github.com/user-attachments/assets/fd5b0433-c3fd-4b87-9a46-1fde0d79cbeb" />
 
-<img width="458" height="132" alt="image" src="https://github.com/user-attachments/assets/e2658acb-d042-4790-8116-1bd617eb1926" />
 
-<img width="528" height="67" alt="image" src="https://github.com/user-attachments/assets/2f1f4519-62b1-4a73-9fcc-7dd349d1963c" />
+<img width="589" height="181" alt="Screenshot 2026-05-11 at 04 01 50" src="https://github.com/user-attachments/assets/731e5cda-531e-4cb7-a322-54dc6fe3a113" />
+
+<img width="589" height="84" alt="Screenshot 2026-05-11 at 04 01 55" src="https://github.com/user-attachments/assets/479913c8-cf12-486d-a512-9e05f1e4a1aa" />
+
+
