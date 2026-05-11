@@ -10,43 +10,62 @@ Dokumentatsioonis pööra tähelepanu sellele, et oleks näha täielikku lahendu
 
 # RAID 
 
-<img width="577" height="132" alt="image" src="https://github.com/user-attachments/assets/2cde0ff2-6734-48e7-9a52-d292a7296d68" />
+<img width="565" height="129" alt="Screenshot 2026-05-11 at 09 28 55" src="https://github.com/user-attachments/assets/315eed4f-eb8b-4ee8-801f-9bb0f604b2e8" />
 
-<img width="516" height="115" alt="image" src="https://github.com/user-attachments/assets/28888053-8b89-4795-8b1b-1035c60b6121" />
+<img width="521" height="116" alt="Screenshot 2026-05-11 at 09 29 06" src="https://github.com/user-attachments/assets/ab39c9d3-9618-4d77-a5db-8ff48ff0a883" />
+
 
 # torketeavitus
 
-<img width="604" height="77" alt="image" src="https://github.com/user-attachments/assets/b68de80e-c309-428a-9d76-6496dc02a639" />
+<img width="593" height="62" alt="Screenshot 2026-05-11 at 09 30 04" src="https://github.com/user-attachments/assets/19958630-48d2-4adf-acba-5faaaebb2461" />
 
-<img width="604" height="341" alt="image" src="https://github.com/user-attachments/assets/7b6b43f1-db37-4f7a-be2a-1bd70374f060" />
+<img width="593" height="343" alt="Screenshot 2026-05-11 at 09 30 16" src="https://github.com/user-attachments/assets/4ff2685a-04ff-4ae7-af68-3f046ad86742" />
 
-<img width="607" height="47" alt="image" src="https://github.com/user-attachments/assets/3be40e92-d033-47ae-a304-de16a1796bd8" />
+<img width="593" height="56" alt="Screenshot 2026-05-11 at 09 30 24" src="https://github.com/user-attachments/assets/11fae1b7-a080-4d17-92ff-cec6c9b42a96" />
 
-<img width="528" height="67" alt="image" src="https://github.com/user-attachments/assets/3043b32d-c612-4395-a430-5e231f82815a" />
+<img width="527" height="60" alt="Screenshot 2026-05-11 at 09 30 34" src="https://github.com/user-attachments/assets/018a07a4-77c3-49ac-a983-a271cda78884" />
 
 
 # Logide Haldus 
+<img width="608" height="392" alt="Screenshot 2026-05-11 at 09 32 10" src="https://github.com/user-attachments/assets/6575ad8e-d2ed-4401-859a-94c93294d34f" />
 
-<img width="603" height="400" alt="image" src="https://github.com/user-attachments/assets/649c39bd-9476-4860-9ecc-33486f01557a" />
+<img width="608" height="24" alt="Screenshot 2026-05-11 at 09 32 19" src="https://github.com/user-attachments/assets/36a81b1a-5bf9-452d-aff2-50d3bbdf0c79" />
 
-<img width="618" height="250" alt="image" src="https://github.com/user-attachments/assets/3f4cda6e-c5c0-46e0-b835-10af9b2e8ace" />
+<img width="608" height="24" alt="Screenshot 2026-05-11 at 09 32 24" src="https://github.com/user-attachments/assets/4e799217-0b3a-4d26-ab60-97bbbbdffd6c" />
+
+<img width="608" height="87" alt="Screenshot 2026-05-11 at 09 32 30" src="https://github.com/user-attachments/assets/156e3b34-10aa-4ae7-be45-dbf838a25834" />
 
 # Tagavarakoopia 
 
-<img width="615" height="478" alt="image" src="https://github.com/user-attachments/assets/948056ab-bb96-445e-af51-15b30ae4c787" />
+<img width="608" height="348" alt="Screenshot 2026-05-11 at 09 33 24" src="https://github.com/user-attachments/assets/98772028-58e4-41c8-a12f-733f6c37414f" />
 
-<img width="629" height="247" alt="image" src="https://github.com/user-attachments/assets/4caf603a-76cc-4118-94a5-bce3c0cc1b7d" />
+<img width="608" height="72" alt="Screenshot 2026-05-11 at 09 33 30" src="https://github.com/user-attachments/assets/53e21bca-4547-4bb7-b442-a2a0bad641cb" />
+
+<img width="608" height="55" alt="Screenshot 2026-05-11 at 09 33 38" src="https://github.com/user-attachments/assets/4b1506ff-77cf-4069-9790-0819ade0165a" />
+
+<img width="608" height="55" alt="Screenshot 2026-05-11 at 09 34 00" src="https://github.com/user-attachments/assets/0a7e3996-d48a-4e5a-9d9a-3a3fbcaab8c3" />
+
+<img width="608" height="55" alt="Screenshot 2026-05-11 at 09 34 03" src="https://github.com/user-attachments/assets/c1193ffa-475b-4dcc-b92d-e9639f298f83" />
+
+
+
 
 # serveriga uhendus
 
-<img width="607" height="152" alt="image" src="https://github.com/user-attachments/assets/6355f0ff-2621-42db-9ae0-c16c45f2666c" />
+<img width="608" height="149" alt="Screenshot 2026-05-11 at 09 35 18" src="https://github.com/user-attachments/assets/97be4f40-3b1f-4520-ac7d-1ca29d445253" />
+
 
 # Lisa asjad: 
  
 Data asukoht 
 
-<img width="610" height="178" alt="image" src="https://github.com/user-attachments/assets/c6027aa7-e381-4330-96a4-dadd5a706636" />
+<img width="608" height="173" alt="Screenshot 2026-05-11 at 09 35 25" src="https://github.com/user-attachments/assets/2cad14a6-adfe-446e-a8ba-7db80de6ccb8" />
+
 
 Cloud Backup 
 
-<img width="612" height="161" alt="image" src="https://github.com/user-attachments/assets/75e1b7cd-b4f7-4f40-8bb9-c29e74385f1b" />
+<img width="608" height="27" alt="Screenshot 2026-05-11 at 09 35 36" src="https://github.com/user-attachments/assets/bef42b42-46bc-4d50-ac35-f3230beada26" />
+
+<img width="608" height="88" alt="Screenshot 2026-05-11 at 09 35 41" src="https://github.com/user-attachments/assets/a99db3bb-9544-4518-b48c-d15f59b546a7" />
+
+
