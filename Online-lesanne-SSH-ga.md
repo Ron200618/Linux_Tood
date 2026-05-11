@@ -3,13 +3,20 @@ Mine veebilehele: https://overthewire.org/wargames/bandit/bandit0.html
 
 Dokumenteeri kõiki edukaid ülesandeid mis sellel lehele ära teed - tee ilusad kuvatõmmised enda lahendustest!
 
-Lisa dokumentatsioon (kuvatõmmistest piisab) siia ülesandele.
 
-<img width="636" height="592" alt="image" src="https://github.com/user-attachments/assets/1cd8164f-0a35-4ab2-84ed-b5e78fe95e51" />
+<img width="543" height="48" alt="Screenshot 2026-05-11 at 05 34 56" src="https://github.com/user-attachments/assets/a338fb44-8042-460f-b0e3-0b0e55a68f3a" />
 
-<img width="649" height="138" alt="image" src="https://github.com/user-attachments/assets/1a7c33ae-da83-4e8a-9912-c34f2068c047" />
+<img width="543" height="479" alt="Screenshot 2026-05-11 at 05 35 06" src="https://github.com/user-attachments/assets/c6b96521-e88c-4ebf-a70a-cd509cdb519e" />
 
-<img width="182" height="83" alt="image" src="https://github.com/user-attachments/assets/01043003-b6e7-472b-b07e-6ead48678b6b" />
+
+<img width="570" height="124" alt="Screenshot 2026-05-11 at 05 35 16" src="https://github.com/user-attachments/assets/b767ae5c-1cb1-4fda-b6c7-92c73a3b1427" />
+
+
+
+
+
+
+
 
 # 1-2
 <img width="609" height="226" alt="image" src="https://github.com/user-attachments/assets/8e6512ad-b165-4af1-9b64-582be37a97c1" />
