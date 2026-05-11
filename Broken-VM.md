@@ -68,6 +68,8 @@ Katkised asjad:
 
 <img width="419" height="168" alt="Screenshot 2026-05-11 at 03 23 33" src="https://github.com/user-attachments/assets/c0045b7c-ba33-442a-8513-25e1cf8160b9" />
 
+<img width="369" height="89" alt="Screenshot 2026-05-11 at 03 23 43" src="https://github.com/user-attachments/assets/a5b9f54f-4e51-427c-8e8e-4dbe44a2184c" />
+
 
 
 korras.
