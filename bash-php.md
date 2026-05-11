@@ -5,8 +5,14 @@ Eesmärk on luua hetkel php veebileht kus on tesktikast, sinna tekstikasti sisse
 Alustame lihtsast ülesandest: laeme alla apache2 ja php.
 Seejärel teeme apache2 veebilehele lihtsa text insertion boxi.
 
+<img width="497" height="311" alt="Screenshot 2026-05-11 at 09 53 06" src="https://github.com/user-attachments/assets/cd70ed2d-4bf6-42b6-bed4-5fbee6e0d2b6" />
+
+Panin ron 
+Parool :1234 
+
+<img width="600" height="368" alt="Screenshot 2026-05-11 at 09 53 44" src="https://github.com/user-attachments/assets/e950f06c-14dc-445a-9c96-9a16d37639ca" />
 
 
-<img width="514" height="477" alt="image" src="https://github.com/user-attachments/assets/72bf0711-c82b-4b7f-84eb-21f803472899" />
+<img width="600" height="368" alt="Screenshot 2026-05-11 at 09 53 48" src="https://github.com/user-attachments/assets/56841190-0767-4fd9-b47e-007b5fc992f8" />
 
-<img width="545" height="316" alt="image" src="https://github.com/user-attachments/assets/db2cf3fa-8599-4648-a5c2-29c3653b2e47" />
+<img width="600" height="57" alt="Screenshot 2026-05-11 at 09 53 54" src="https://github.com/user-attachments/assets/f08ee953-99ca-4ce3-b1c9-3f3393843737" />
