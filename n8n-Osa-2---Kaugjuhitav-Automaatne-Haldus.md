@@ -200,7 +200,8 @@ HTTP Request	Suhtlemine API-dega (nt pilveteenused, monitoring lahendused).
 
 # lahendus
 
-<img width="611" height="197" alt="image" src="https://github.com/user-attachments/assets/69173e60-570e-42b3-adbf-2b2ab13192f2" />
+<img width="556" height="171" alt="Screenshot 2026-05-11 at 09 39 48" src="https://github.com/user-attachments/assets/4fa55024-d711-458f-b369-145a91d47b50" />
+
 
 Ping	Lihtne teenuse kättesaadavuse kontrollimine.
 IF / Switch	Loogiline otsustusprotsess (nt Kui ketas on > 80%, siis teavita).
