@@ -82,37 +82,58 @@ Cockpit on interaktiivne ja veebipõhine graafiline kasutajaliides Linuxi server
 haldamiseks. See on loodud selleks, et muuta süsteemi administreerimine lihtsamaks ja
 visuaalsemaks, ilma et peaksid kõiki käsurida käske peast teadma
 # 1.
-<img width="585" height="552" alt="image" src="https://github.com/user-attachments/assets/5e66c670-9487-4cf5-9916-dfe66665d686" />
+<img width="563" height="542" alt="Screenshot 2026-05-11 at 08 27 33" src="https://github.com/user-attachments/assets/41a2cbe2-6224-4391-8b5d-7b6acdeed0ad" />
+
 # 2.
-<img width="568" height="539" alt="image" src="https://github.com/user-attachments/assets/bfdfdc5c-4590-4adf-b46a-4a772e89ada6" />
+<img width="563" height="542" alt="Screenshot 2026-05-11 at 08 27 44" src="https://github.com/user-attachments/assets/bc51284e-c419-4c8a-9e1c-269b96918d08" />
+
 # 3.
-<img width="572" height="160" alt="image" src="https://github.com/user-attachments/assets/52aabab0-af69-48bc-bd34-d5ea7be00c69" />
+<img width="563" height="179" alt="Screenshot 2026-05-11 at 08 27 54" src="https://github.com/user-attachments/assets/e74d75eb-5439-4613-9f1b-9aabc8270068" />
+
+
 Tegin mõlemal encrypt
-<img width="560" height="215" alt="image" src="https://github.com/user-attachments/assets/d0051860-b3db-4223-adf8-3a9be5a0aeaf" />
+<img width="563" height="211" alt="Screenshot 2026-05-11 at 08 28 01" src="https://github.com/user-attachments/assets/adf20491-b6ae-4d23-a378-8af7540a0707" />
+
 
 
 # 4. kasutajad
-<img width="408" height="213" alt="image" src="https://github.com/user-attachments/assets/f5309ea9-eb41-47da-8301-3cd5c25d4c40" />
+<img width="563" height="211" alt="Screenshot 2026-05-11 at 08 28 07" src="https://github.com/user-attachments/assets/1807eaf8-9462-4446-81c0-b0d1b380ab82" />
 
-<img width="565" height="445" alt="image" src="https://github.com/user-attachments/assets/292ecb6d-913a-445c-a02e-235155dd9f44" />
+<img width="563" height="211" alt="Screenshot 2026-05-11 at 08 28 07" src="https://github.com/user-attachments/assets/4c4c23f7-6e63-4c3c-81d3-ee01a67eb578" />
 
-<img width="552" height="409" alt="image" src="https://github.com/user-attachments/assets/4e8bb4ac-f092-40f7-a9d5-889140363430" />
+<img width="563" height="438" alt="Screenshot 2026-05-11 at 08 28 16" src="https://github.com/user-attachments/assets/b60bef0c-3cc4-4dea-9dd2-c6de54c0c25e" />
 
-<img width="556" height="425" alt="image" src="https://github.com/user-attachments/assets/4cc2dbb9-0761-4c63-844b-747680e01a21" />
+<img width="535" height="127" alt="Screenshot 2026-05-11 at 08 28 27" src="https://github.com/user-attachments/assets/b69fa662-48bc-49ce-96db-2de255b14aef" />
+
+<img width="326" height="243" alt="Screenshot 2026-05-11 at 08 28 35" src="https://github.com/user-attachments/assets/a932f997-5e16-4cd8-b7a6-75cb966fdcc6" />
+
+<img width="379" height="157" alt="Screenshot 2026-05-11 at 08 29 02" src="https://github.com/user-attachments/assets/eed97573-b3d3-498e-a7f8-b450c4ad2df1" />
+
+<img width="404" height="223" alt="Screenshot 2026-05-11 at 08 29 08" src="https://github.com/user-attachments/assets/6ed19b2d-b187-46ff-a6f4-d8a677a90912" />
+
 
 # 5.
 
-<img width="568" height="162" alt="image" src="https://github.com/user-attachments/assets/28db9366-37b4-4a06-bf2b-5128bbed78b7" />
+<img width="541" height="223" alt="Screenshot 2026-05-11 at 08 29 13" src="https://github.com/user-attachments/assets/507cfaa3-465a-47fd-b921-a5387f30c24d" />
 
-<img width="537" height="694" alt="image" src="https://github.com/user-attachments/assets/62118bc2-b45d-4b8c-b386-03552fd5ea6a" />
+<img width="541" height="293" alt="Screenshot 2026-05-11 at 08 29 19" src="https://github.com/user-attachments/assets/3ca0b44f-ebc8-486b-b0ac-507ed6345018" />
 
-<img width="286" height="176" alt="image" src="https://github.com/user-attachments/assets/7e12063a-bac6-456e-8ee1-0bdfbaf91b0d" />
+<img width="532" height="293" alt="Screenshot 2026-05-11 at 08 30 14" src="https://github.com/user-attachments/assets/02a62e89-0e7c-41d6-a0ff-49dea7d4040e" />
+
+<img width="532" height="191" alt="Screenshot 2026-05-11 at 08 30 30" src="https://github.com/user-attachments/assets/0d4ff786-a6cc-42a8-90e0-15a7379a21ce" />
+
 
 # 6.
 6.2
-<img width="579" height="240" alt="image" src="https://github.com/user-attachments/assets/0a385f02-1581-427d-9e7f-b177165ef29b" />
+<img width="567" height="156" alt="Screenshot 2026-05-11 at 08 30 49" src="https://github.com/user-attachments/assets/17d2ce18-b169-4b95-8aaf-0a6b6babc8c7" />
+
 
 6.3
-<img width="424" height="230" alt="image" src="https://github.com/user-attachments/assets/cd715608-dcc3-492e-a331-fa93d0b2c56d" />
+<img width="567" height="78" alt="Screenshot 2026-05-11 at 08 31 26" src="https://github.com/user-attachments/assets/a2a6f476-e687-4518-aea3-f41bc3162f9c" />
+
 6.4 
-<img width="756" height="90" alt="image" src="https://github.com/user-attachments/assets/d2b085bd-9db2-428d-9e5b-700ab0ddec7d" />
+<img width="308" height="179" alt="Screenshot 2026-05-11 at 08 31 37" src="https://github.com/user-attachments/assets/73cf2a80-b60c-492b-a3db-78af1c184094" />
+
+<img width="573" height="84" alt="Screenshot 2026-05-11 at 08 31 46" src="https://github.com/user-attachments/assets/fd478646-3660-46ec-9044-cebb9c92c515" />
+
+
