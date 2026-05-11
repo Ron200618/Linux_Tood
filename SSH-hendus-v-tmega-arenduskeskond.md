@@ -34,25 +34,23 @@ Taaskäivita ssh
 Uute võtmete tegemine ilma vana overwritemisetta:  ssh-keygen -t ed25519 -C "robin_vmuser1" -f C:/Users/robin.rattasep/.ssh/id_ed25519_vmuser1
 13. Ühenda windowsi arvutist enda VMi, tee muudatusi kaustas /website ja vaata kas see muudatused on ka sinu http://localhost lehel, kui ei ole, siis miks?
 
-<img width="579" height="310" alt="image" src="https://github.com/user-attachments/assets/6f8d6df7-8712-4a14-8b7c-0d6f6df6e4b0" />
+<img width="580" height="318" alt="Screenshot 2026-05-11 at 06 33 31" src="https://github.com/user-attachments/assets/2f05fc5b-aa52-4edd-9542-d5472bd5ea57" />
 
-<img width="597" height="65" alt="image" src="https://github.com/user-attachments/assets/4bc2c818-e911-4276-ab79-59e8e6fd2ab6" />
+<img width="580" height="81" alt="Screenshot 2026-05-11 at 06 33 52" src="https://github.com/user-attachments/assets/5624cbfe-3d9e-4a3e-aff6-8fc40de76bca" />
+
+<img width="580" height="333" alt="Screenshot 2026-05-11 at 06 33 59" src="https://github.com/user-attachments/assets/88b8c101-07ec-4e14-9b12-47fc7b2077a1" />
+
+<img width="598" height="293" alt="Screenshot 2026-05-11 at 06 34 08" src="https://github.com/user-attachments/assets/f50dd55d-ae5d-40c9-b85c-b97a39a10dd1" />
+
+<img width="598" height="185" alt="Screenshot 2026-05-11 at 06 34 17" src="https://github.com/user-attachments/assets/7bc40005-f239-49d7-a9ab-f87025da3b9c" />
 
 
-<img width="601" height="335" alt="image" src="https://github.com/user-attachments/assets/0d449105-baad-4a55-b1ca-8e228796a451" />
+<img width="598" height="338" alt="Screenshot 2026-05-11 at 06 34 21" src="https://github.com/user-attachments/assets/b6f2a926-2b79-480c-80a2-239b125b461c" />
 
-<img width="608" height="296" alt="image" src="https://github.com/user-attachments/assets/c154d6b7-aa0a-4ca7-9407-0d5672a8c1c2" />
+<img width="598" height="265" alt="Screenshot 2026-05-11 at 06 34 27" src="https://github.com/user-attachments/assets/e5841906-f796-4f0f-9cfb-5b2aeaa98f08" />
 
-<img width="589" height="182" alt="image" src="https://github.com/user-attachments/assets/a1f4210f-4e30-4cde-b2cb-09a020619bf0" />
+<img width="598" height="312" alt="Screenshot 2026-05-11 at 06 34 32" src="https://github.com/user-attachments/assets/06dbf6b2-8301-4879-954d-82c039aacadf" />
 
-<img width="614" height="347" alt="image" src="https://github.com/user-attachments/assets/63e70e84-d0e0-45f0-ad89-16b459d9b972" />
+<img width="597" height="49" alt="Screenshot 2026-05-11 at 06 34 43" src="https://github.com/user-attachments/assets/54e1e8b1-800c-49e9-997c-f8b543412da1" />
 
-<img width="604" height="272" alt="image" src="https://github.com/user-attachments/assets/0ee08e6c-3393-437e-bf49-08304f7c29bd" />
-
-<img width="597" height="314" alt="image" src="https://github.com/user-attachments/assets/bd100a6e-c504-4acc-8683-551217615b5f" />
-
-<img width="587" height="46" alt="image" src="https://github.com/user-attachments/assets/a21ea663-72c4-406f-894a-ac0fee0604a7" />
-
-<img width="522" height="84" alt="image" src="https://github.com/user-attachments/assets/2927761f-59bd-483e-b1c8-50f185deed96" />
-
-<img width="604" height="252" alt="image" src="https://github.com/user-attachments/assets/be024a70-e1a2-4163-9604-5156b2015c1b" />
+<img width="597" height="89" alt="Screenshot 2026-05-11 at 06 34 48" src="https://github.com/user-attachments/assets/c9d77895-24ca-4bed-a183-459e86fb6fba" />
