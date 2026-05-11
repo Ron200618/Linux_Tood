@@ -93,18 +93,25 @@ Mine oma arvuti kausta, kuhu faili salvestasid.
 Ava pildifail.
 Tulemus: Sa näed täpselt sama pilti, mida kasutaja veebilehel vaatas.
 
-<img width="635" height="713" alt="image" src="https://github.com/user-attachments/assets/42ca8e74-3f44-44b0-94eb-5f3c9310c4f8" />
+<img width="601" height="452" alt="Screenshot 2026-05-11 at 08 48 59" src="https://github.com/user-attachments/assets/0ac6f5ac-f82b-42b9-b180-50ef96d1c53a" />
 
-<img width="593" height="306" alt="image" src="https://github.com/user-attachments/assets/7ca3953c-619c-44c9-8bea-f0b17145cda3" />
+<img width="601" height="288" alt="Screenshot 2026-05-11 at 08 49 08" src="https://github.com/user-attachments/assets/9cfb1a47-5d25-4d25-a149-506ef57fa839" />
 
-<img width="641" height="522" alt="image" src="https://github.com/user-attachments/assets/04fd24ef-4203-4650-a096-02f2f961331d" />
+<img width="549" height="315" alt="Screenshot 2026-05-11 at 08 49 17" src="https://github.com/user-attachments/assets/82a23bff-9701-424a-bb5a-2eb95ab5aa5d" />
+
+<img width="549" height="442" alt="Screenshot 2026-05-11 at 08 49 27" src="https://github.com/user-attachments/assets/f510c821-92bf-4b92-b814-a72195b3e263" />
+
+<img width="549" height="107" alt="Screenshot 2026-05-11 at 08 49 38" src="https://github.com/user-attachments/assets/5e2ce862-405a-4bcb-b976-635970643684" />
+
+
 
 # OSA 2 
 
-<img width="620" height="441" alt="image" src="https://github.com/user-attachments/assets/bc3d5178-fe16-485e-9eea-49356289b4b9" />
+<img width="601" height="446" alt="Screenshot 2026-05-11 at 08 51 49" src="https://github.com/user-attachments/assets/a24ab7a9-bd70-4f33-a5da-e3c8eca0484f" />
 
-<img width="612" height="434" alt="image" src="https://github.com/user-attachments/assets/c14a6122-44b5-4f82-a9fd-fe1314be918e" />
+<img width="601" height="446" alt="Screenshot 2026-05-11 at 08 51 55" src="https://github.com/user-attachments/assets/4db86956-67b4-4311-9302-87fbd7611e88" />
 
-<img width="591" height="461" alt="image" src="https://github.com/user-attachments/assets/21046b4a-11b0-447d-b2d4-49dc20dd4b55" />
+<img width="601" height="446" alt="Screenshot 2026-05-11 at 08 52 00" src="https://github.com/user-attachments/assets/8a4ef7b1-07aa-466e-9d52-241909e0f031" />
 
-<img width="497" height="399" alt="image" src="https://github.com/user-attachments/assets/895de028-a9e7-4c60-bb56-2a476edcaa42" />
+<img width="462" height="418" alt="Screenshot 2026-05-11 at 08 52 13" src="https://github.com/user-attachments/assets/80b5e084-e79d-48a5-9173-e92aa8f2d2b5" />
+
