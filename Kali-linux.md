@@ -70,9 +70,16 @@ Muuda nüüd enda kofiguratsiooni nii, et sa saaksid banni siis, kui oled 3 kord
 
 <img width="561" height="318" alt="Screenshot 2026-05-11 at 04 16 54" src="https://github.com/user-attachments/assets/3e51855c-9ec3-47ef-b56b-8f1fc2b9ad35" />
 
+<img width="561" height="198" alt="Screenshot 2026-05-11 at 04 17 06" src="https://github.com/user-attachments/assets/4400f8d4-eec0-471e-92c1-d3a899ec982f" />
+
+<img width="350" height="47" alt="Screenshot 2026-05-11 at 04 17 17" src="https://github.com/user-attachments/assets/e591c851-953b-42bd-89ce-33a4e095949d" />
+
+<img width="566" height="274" alt="Screenshot 2026-05-11 at 04 17 28" src="https://github.com/user-attachments/assets/7fdd1ff6-5b70-4f65-ae19-890162c47287" />
+
+<img width="566" height="327" alt="Screenshot 2026-05-11 at 04 17 33" src="https://github.com/user-attachments/assets/0994fe68-cebc-48ff-9a00-d473a4f8e439" />
 
 
-
+<img width="566" height="195" alt="Screenshot 2026-05-11 at 04 17 41" src="https://github.com/user-attachments/assets/4aa487cf-096b-43d7-90f9-d9c3004b2da1" />
 
 
 
