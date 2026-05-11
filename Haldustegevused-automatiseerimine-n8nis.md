@@ -170,20 +170,36 @@ pm2 monit
 # samm 1
 
 
-<img width="625" height="686" alt="image" src="https://github.com/user-attachments/assets/82ba9a12-8ee6-4ef8-9ffd-68f909235ec0" />
+<img width="589" height="135" alt="Screenshot 2026-05-11 at 04 05 45" src="https://github.com/user-attachments/assets/cb7b8cb1-85d8-4125-9500-e2351bb70ad8" />
 
-<img width="600" height="656" alt="image" src="https://github.com/user-attachments/assets/616bc76b-5e30-455a-8c8f-46463d88c84a" />
+<img width="602" height="169" alt="Screenshot 2026-05-11 at 04 05 54" src="https://github.com/user-attachments/assets/3c79ce56-9282-4e7b-98cc-4d32b605ce17" />
 
-<img width="659" height="757" alt="image" src="https://github.com/user-attachments/assets/c76d3c57-9e64-4bac-bc84-b3d6619d3654" />
+<img width="602" height="393" alt="Screenshot 2026-05-11 at 04 06 02" src="https://github.com/user-attachments/assets/109621b7-a615-4e05-b192-ea54ea299901" />
+
+<img width="602" height="305" alt="Screenshot 2026-05-11 at 04 06 10" src="https://github.com/user-attachments/assets/b4a02611-abe7-47be-b86d-e1c781ee0399" />
+
+<img width="602" height="305" alt="Screenshot 2026-05-11 at 04 06 18" src="https://github.com/user-attachments/assets/ce4e8ee2-992c-4238-92e9-1bb13e88930f" />
+
+<img width="563" height="368" alt="Screenshot 2026-05-11 at 04 06 29" src="https://github.com/user-attachments/assets/fc316c7c-6e3a-4c3d-9efe-c298bc444959" />
+
+<img width="595" height="368" alt="Screenshot 2026-05-11 at 04 06 33" src="https://github.com/user-attachments/assets/ebfb2c90-7c57-4d2a-8b2e-1bd7432b052a" />
+
+
+
 
 # samm 2
 
-<img width="644" height="725" alt="image" src="https://github.com/user-attachments/assets/a0c08ad6-3934-4a96-9f79-447c9c851900" />
+<img width="611" height="499" alt="Screenshot 2026-05-11 at 04 06 44" src="https://github.com/user-attachments/assets/7e240f35-ff0f-4087-87fc-4a6ac3acd4aa" />
 
-<img width="612" height="252" alt="image" src="https://github.com/user-attachments/assets/2e7d42b7-0242-4780-8640-299fe119270e" />
+<img width="385" height="223" alt="Screenshot 2026-05-11 at 04 06 58" src="https://github.com/user-attachments/assets/8f3adf03-756e-4e86-956c-3d5a903d9a5c" />
+
+<img width="625" height="324" alt="Screenshot 2026-05-11 at 04 07 12" src="https://github.com/user-attachments/assets/15c85717-7aca-4edc-b021-5e6330a67edf" />
+
 
 # samm 3
 
-<img width="608" height="409" alt="image" src="https://github.com/user-attachments/assets/20eea22f-c1e1-4d21-81f5-d1c7e4c5113f" />
+<img width="471" height="156" alt="Screenshot 2026-05-11 at 04 07 24" src="https://github.com/user-attachments/assets/e400a10d-17ad-43c7-bed4-eaf52d35ed0e" />
 
-<img width="602" height="406" alt="image" src="https://github.com/user-attachments/assets/d2acd00a-d5de-48fa-a93d-6540936aaeca" />
+<img width="551" height="195" alt="Screenshot 2026-05-11 at 04 07 37" src="https://github.com/user-attachments/assets/b02c8316-c894-4979-9e53-3e618312d5b4" />
+
+<img width="580" height="394" alt="Screenshot 2026-05-11 at 04 07 50" src="https://github.com/user-attachments/assets/f8d86217-fee3-476e-83ee-f656821f0a0d" />
