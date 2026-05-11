@@ -6,7 +6,8 @@ Seadista ubuntus SSH ja tee 3 uut kasutajat.
 
 Sea 3le kasutajale paroolid nii, et 1 on kerge, 2 on keskmise tugevusega ja kolmas on turvaline parool.
 
-<img width="323" height="439" alt="image" src="https://github.com/user-attachments/assets/effd794b-289e-4692-9761-d8960615bd18" />
+<img width="319" height="422" alt="Screenshot 2026-05-11 at 05 10 37" src="https://github.com/user-attachments/assets/a711f772-d8ae-4252-855d-1fbf83d2a368" />
+
 Seadista host only ühendus mõlemale enda masinale.
 
 Kalis tee endale samasugune failipuu:
@@ -14,7 +15,9 @@ Miks? Me proovime SSH-ga sisse "häkkida" enda ubuntu masinasse.
 
  Selleks kasutame tööriista nimega hydra.
 
- <img width="850" height="477" alt="image" src="https://github.com/user-attachments/assets/06cd6832-a86f-4cc4-a34e-38fc636c9fa1" />
+<img width="725" height="409" alt="Screenshot 2026-05-11 at 05 10 45" src="https://github.com/user-attachments/assets/c36d5cc1-fabc-45a7-b9b4-1c25fd54e6d5" />
+
+ 
 hydra on tööriist mis proovim meie antud paroolide ja kasutajanimedega luua SSH ühendust meie ubunut masinaga. Kui me teame näiteks, et ubuntu kasutajanimi on "robin", siis me võime teha paroolifaili (või alla laadida kusagilt netist) mis on sadu tuhandeid ridu pikk, ning see proovib kõik need paroolid läbi.
 
 Käsk (Kali VM-is):
@@ -50,7 +53,8 @@ selgita, mis tingimustel me võiksimesellist lahendust kasutada?
 
 Proovi uuesti hydra kasutada, kui kõik on õige siis peaksid banni saama.
 
-<img width="1044" height="127" alt="image" src="https://github.com/user-attachments/assets/53348fd6-a859-4b7b-9d01-ab4887809392" />
+<img width="725" height="72" alt="Screenshot 2026-05-11 at 05 10 55" src="https://github.com/user-attachments/assets/cfc8f0fd-5588-4af2-9d21-c3c47d58251e" />
+
 
 Muuda nüüd enda kofiguratsiooni nii, et sa saaksid banni siis, kui oled 3 korda valesti parooli pannud 1 minuti jooksul ning siis saad banni ainult 3 minutiks.
 
