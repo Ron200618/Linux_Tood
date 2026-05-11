@@ -16,25 +16,20 @@ Host: "127.0.0.0"
 Host Port: "2222"
 Guest port: "22"
 
-<img width="726" height="373" alt="image" src="https://github.com/user-attachments/assets/e10c3513-7c05-4e99-8f8e-71148a191bdc" />
+<img width="597" height="206" alt="Screenshot 2026-05-11 at 06 37 58" src="https://github.com/user-attachments/assets/b1e895aa-6556-4d63-9404-9a2a466d6098" />
 
-<img width="595" height="101" alt="image" src="https://github.com/user-attachments/assets/08ab887c-54bf-4ac6-ab0c-77d9ed3b12a8" />
+<img width="597" height="107" alt="Screenshot 2026-05-11 at 06 38 19" src="https://github.com/user-attachments/assets/c2b2c11b-67a8-4c75-9f7d-529a95d4d17e" />
 
+<img width="597" height="186" alt="Screenshot 2026-05-11 at 06 38 27" src="https://github.com/user-attachments/assets/e2128ed6-82a4-4761-aba7-79ff848e814d" />
 
-<img width="607" height="205" alt="image" src="https://github.com/user-attachments/assets/458c2041-2a24-4ccf-8c90-64a659bf7495" />
+<img width="597" height="169" alt="Screenshot 2026-05-11 at 06 38 35" src="https://github.com/user-attachments/assets/651b196d-dae7-4452-bc98-0cec504f6954" />
 
+<img width="597" height="438" alt="Screenshot 2026-05-11 at 06 38 45" src="https://github.com/user-attachments/assets/88cc19f5-9322-4f3d-9177-08a010fc5c48" />
 
-<img width="612" height="102" alt="image" src="https://github.com/user-attachments/assets/27294986-b904-40b4-bdd6-1896eddbf4da" />
+<img width="597" height="118" alt="Screenshot 2026-05-11 at 06 38 52" src="https://github.com/user-attachments/assets/840cb3b1-ba87-473b-a673-5bc45074a1fe" />
 
-<img width="598" height="190" alt="image" src="https://github.com/user-attachments/assets/116f3d4e-458d-4ce4-b3a9-715636108e18" />
+<img width="597" height="412" alt="Screenshot 2026-05-11 at 06 39 00" src="https://github.com/user-attachments/assets/16c2d8d0-3b86-4aa9-955a-14aef1e89e4f" />
 
-<img width="605" height="237" alt="image" src="https://github.com/user-attachments/assets/016eb746-bc0b-421d-a710-bc98c1589496" />
-
-<img width="603" height="440" alt="image" src="https://github.com/user-attachments/assets/8b64ce16-870a-465e-879f-c7810ed62e7c" />
-
-<img width="615" height="131" alt="image" src="https://github.com/user-attachments/assets/ab59580c-7b4b-4851-aa84-4f5b01a7d88f" />
-
-<img width="607" height="419" alt="image" src="https://github.com/user-attachments/assets/743435dd-f90f-43fc-98e1-490e5824a928" />
 
 Kris-Saab kirjutada ja lugeda 
 Op1- Saab lugeda 
