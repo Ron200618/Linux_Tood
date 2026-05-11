@@ -70,4 +70,4 @@ Command et startida docker:
 docker compose up -d
 
 
-<img width="500" height="313" alt="image" src="https://github.com/user-attachments/assets/e65ea08c-11e4-4aa1-93e6-8013b24dbee4" />
+<img width="496" height="312" alt="Screenshot 2026-05-11 at 04 12 08" src="https://github.com/user-attachments/assets/d6db278f-e9c1-4706-9d8b-aa12b166f817" />
