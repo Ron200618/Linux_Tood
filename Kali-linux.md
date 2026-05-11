@@ -79,3 +79,8 @@ Muuda nüüd enda kofiguratsiooni nii, et sa saaksid banni siis, kui oled 3 kord
 
 
 
+
+
+
+
+
