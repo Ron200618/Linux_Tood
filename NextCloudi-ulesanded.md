@@ -11,12 +11,15 @@ Pane see script iga 1 tunni tagant käima.
 
 Lae alla firewall.
 
-<img width="572" height="400" alt="image" src="https://github.com/user-attachments/assets/8d289b1a-8420-4ca3-9c3b-c7f05d33ff62" />
+<img width="605" height="407" alt="Screenshot 2026-05-11 at 05 19 00" src="https://github.com/user-attachments/assets/e6653734-fd29-4b87-b7ad-2c0beaa1b75d" />
 
-<img width="567" height="353" alt="image" src="https://github.com/user-attachments/assets/e5c1aef7-17d6-41de-bdd5-85dd51d28507" />
+<img width="605" height="366" alt="Screenshot 2026-05-11 at 05 19 05" src="https://github.com/user-attachments/assets/b18e4468-ca3b-416f-9a9e-187e104f552e" />
 
-<img width="594" height="308" alt="image" src="https://github.com/user-attachments/assets/c64c8bc1-835a-47b7-aa73-ec97dfa23038" />
+<img width="605" height="308" alt="Screenshot 2026-05-11 at 05 19 14" src="https://github.com/user-attachments/assets/0546f626-cd78-4c44-aa20-30aff103519e" />
 
-<img width="531" height="191" alt="image" src="https://github.com/user-attachments/assets/3b65c77a-4354-4b9b-a479-505ca93513dd" />
+<img width="605" height="192" alt="Screenshot 2026-05-11 at 05 19 20" src="https://github.com/user-attachments/assets/b62963b8-6761-4320-964f-d462ce6d2da1" />
 
-<img width="576" height="260" alt="image" src="https://github.com/user-attachments/assets/5cac258b-0a8a-4382-a7fb-d105e99e9a24" />
+
+<img width="605" height="260" alt="Screenshot 2026-05-11 at 05 19 29" src="https://github.com/user-attachments/assets/18c7ac01-1e05-485e-9c94-234a4d6ddc01" />
+
+
