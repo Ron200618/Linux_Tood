@@ -21,19 +21,23 @@ Täida veebilehel antud juhised.
 Mis on htop? 
 htop on interaktiivne süsteemihalduri tööriist , mis kuvab reaalajas värvikoodidega graafilises terminaliliideses süsteemi ressursikasutust (CPU, mälu) ja kõiki jooksvaid protsesse. See on parem ja kasutajasõbralikum alternatiiv vanale top käsule. 
 
-<img width="604" height="398" alt="image" src="https://github.com/user-attachments/assets/7311d857-24d4-4d01-89ab-f52a7e32203f" />
+<img width="600" height="389" alt="Screenshot 2026-05-11 at 04 24 41" src="https://github.com/user-attachments/assets/54feecaf-70b6-426e-b19c-c381a4217f10" />
+
 
  Mis on powertop 
  
  
 powertop on hea tööriist, millega tuvastada ja parandada süsteemi energiakulu Linuxis. 
 
- <img width="605" height="392" alt="image" src="https://github.com/user-attachments/assets/030992f8-7e2a-485f-a38a-03d8914d207b" />
+<img width="600" height="394" alt="Screenshot 2026-05-11 at 04 24 54" src="https://github.com/user-attachments/assets/ba6bb2cf-b914-44ff-b061-5acaf043b354" />
+
 
 Mis on autojump 
  
 autojump on käsurea utiliit, mis õpib teie navigatsiooniharjumusi ja võimaldab teil hüpata otse sageli külastatavatesse kataloogidesse, trükkides vaid lühikese osa kataloogi nimest.  
-<img width="601" height="124" alt="image" src="https://github.com/user-attachments/assets/abf21bf0-26f7-4cb0-8c5b-3522f8363e8f" />
+
+<img width="600" height="123" alt="Screenshot 2026-05-11 at 04 25 03" src="https://github.com/user-attachments/assets/0c61dd39-13a4-4fa7-8446-a3169cf20869" />
+
 
 Mis on lolcat 
  
@@ -41,19 +45,22 @@ lolcat on käsurea utiliit, mis värvib terminali väljundteksti dünaamiliste v
 
 See on sisuliselt sarnane käsuga cat (mis kuvab failide sisu), kuid lisab iga reaga värvi nihutades vikerkaare efekti. 
 
-<img width="609" height="236" alt="image" src="https://github.com/user-attachments/assets/a292167b-6064-4676-8665-37c928e4bac8" />
+<img width="600" height="227" alt="Screenshot 2026-05-11 at 04 25 10" src="https://github.com/user-attachments/assets/23516401-6baf-4f76-b70a-4a36148a181b" />
+
 
 Mis on cowsay 
 
 cowsay on Perl-i skript, mis genereerib terminalis ASCII-kunsti, tavaliselt lehma, mis ütleb kasutaja sisestatud sõnumi. Sõnum kuvatakse kõnemullis. 
 
-<img width="608" height="167" alt="image" src="https://github.com/user-attachments/assets/a519728b-08bd-4cf1-8e76-543180ee9ec8" />
+<img width="600" height="167" alt="Screenshot 2026-05-11 at 04 25 18" src="https://github.com/user-attachments/assets/cb32919e-9188-42c0-8ac9-9b89c35bea22" />
+
 
 Mis on grep 
  
 grep on kasulik tulevikus igaühele, kes töötab suurte tekstifailide, logide, koodi või andmetega terminali kaudu. See on asendamatu tööriist kiireks filtreerimiseks ja infotsinguks. 
 
-<img width="607" height="56" alt="image" src="https://github.com/user-attachments/assets/44f4c073-5c91-477b-be19-dfcaac43044b" />
+<img width="600" height="52" alt="Screenshot 2026-05-11 at 04 25 29" src="https://github.com/user-attachments/assets/6cd20492-6257-464c-b02f-1435062ff185" />
+
 
 # Lõbusad tööriistad 
 
@@ -64,37 +71,45 @@ Mis on btop
 
 btop (lühend sõnadest "Better top") on C++-is kirjutatud ressursitõhus ja visuaalselt rikas süsteemi jälgimise tööriist terminali jaoks. See on htop'i järeltulija, pakkudes rohkem detaile ja paremat kasutuskogemust. 
 
-<img width="598" height="393" alt="image" src="https://github.com/user-attachments/assets/eb0c486a-88ee-45f2-9185-2b6eaee46283" />
+<img width="600" height="392" alt="Screenshot 2026-05-11 at 04 25 43" src="https://github.com/user-attachments/assets/27c6fc40-24c1-4f60-9c40-ea0cf70e01ce" />
+
 
 Mis on fish 
 
  
 
 fish on kaasaegne käsurida (shell), mis on disainitud rõhuga kasutajasõbralikkusel ja interaktiivsel kiirusel. See pakub suurepäraseid funktsioone ilma keerulise seadistamiseta, mida vajavad traditsioonilised shellid nt Bash. 
-<img width="596" height="231" alt="image" src="https://github.com/user-attachments/assets/53b02592-65ff-4bef-9936-eb0116e36e18" />
+
+<img width="600" height="234" alt="Screenshot 2026-05-11 at 04 25 52" src="https://github.com/user-attachments/assets/cd400436-aa80-474d-bd78-828b3107ce14" />
+
 
 Mis on glow 
 
 Teeb dokumentatsiooni lugemise terminalis silmasõbralikuks, vormindades pealkirjad, loendid ja koodiplokid värvilise 
-<img width="601" height="235" alt="image" src="https://github.com/user-attachments/assets/a5d4eb3a-3d69-4bed-8440-b6b14dc15ff0" />
+
+<img width="600" height="232" alt="Screenshot 2026-05-11 at 04 26 00" src="https://github.com/user-attachments/assets/b83efd31-43c1-4857-88c4-7c5d40eed4fd" />
+
 
 Mis on sed 
 
 sed on Linuxi/Unixi/macOS-i käsurea tööriist, mis on loodud teksti muutmiseks, kustutamiseks, lisamiseks ja asendamiseks failides või andmevoogudes. See on eriti kasulik korduvate toimingute automatiseerimiseks. 
 
-<img width="611" height="267" alt="image" src="https://github.com/user-attachments/assets/87aac3b7-9320-48f3-85ab-69e13fb78d20" />
+<img width="600" height="260" alt="Screenshot 2026-05-11 at 04 26 08" src="https://github.com/user-attachments/assets/aaf87ae1-d477-498a-b557-f8b2b335ab69" />
+
 
 Mis on neofetch 
 
 Neofetch on populaarne käsurea süsteemiinfo tööriist, mida Linuxi kasutajad tihti kasutavad. Selle peamine eesmärk on kuvada Sinu süsteemi kohta põhiteavet visuaalselt meeldival viisil – tavaliselt Sinu Linuxi distributsiooni ASCII logoga kõrvuti. 
 
-<img width="602" height="359" alt="image" src="https://github.com/user-attachments/assets/52b14b09-0dc0-413f-a179-074715564410" />
+<img width="600" height="357" alt="Screenshot 2026-05-11 at 04 26 16" src="https://github.com/user-attachments/assets/be5184b2-833a-4803-80f2-e743f6c75bb9" />
+
 
 Mis on eza 
 
 eza on kaasaegne, arenenud ja visuaalselt täiustatud asendus standardsele Linuxi käsule ls (failide ja kaustade loetlemine terminalis). 
 
-<img width="603" height="85" alt="image" src="https://github.com/user-attachments/assets/1523685c-2352-422a-ab48-8413d365554b" />
+<img width="600" height="81" alt="Screenshot 2026-05-11 at 04 26 22" src="https://github.com/user-attachments/assets/10645dc2-94c7-4815-926b-ada45b2abe63" />
+
 
 
 
@@ -104,20 +119,24 @@ Kuvab juhusliku tsitaadi või nalja
 
 ma ei tea , milleks see milleks see kasulik vyib olla, aga see on hea, kui tunnitoo on tegemata ja opetaja tahab naha sinu tehtud tyyd. 
 
-<img width="537" height="53" alt="image" src="https://github.com/user-attachments/assets/87fb6c6d-2242-4c9f-9786-a51b2afa119a" />
+<img width="600" height="49" alt="Screenshot 2026-05-11 at 04 26 31" src="https://github.com/user-attachments/assets/1fe8a9d6-9971-4850-8431-bc3975921d64" />
+
 
 Mis on thefuck 
  
 theFuck on populaarne käsurea utiliit Linuxi, macOS-i ja teiste UNIX-sarnaste süsteemide jaoks, mis parandab automaatselt vead sinu viimati sisestatud terminalikäsus. 
 
-<img width="608" height="252" alt="image" src="https://github.com/user-attachments/assets/40370af4-b40d-49fb-847c-0c9e91feb611" />
+<img width="600" height="241" alt="Screenshot 2026-05-11 at 04 26 38" src="https://github.com/user-attachments/assets/ca658460-7a1e-4923-98a7-5199d31e049b" />
+
+
 idk, miks see crashib
 
 Mis on tldr 
  
 Traditsioonilised man pages (manual pages) on väga detailsed, aga sageli liiga pikad ja keerulised. tldr annab kohe kõige sagedasemad kasutusnäited praktiliste näidetega, mis aitab koheselt aru saada, kuidas käsku kasutada, ilma et peaksid läbi lugema kümneid lehekülgi teksti. 
 
-<img width="600" height="347" alt="image" src="https://github.com/user-attachments/assets/f706250e-72de-452e-9fe6-361782049b59" />
+<img width="600" height="343" alt="Screenshot 2026-05-11 at 04 26 52" src="https://github.com/user-attachments/assets/3bf4fa5e-6fbd-47a0-97fe-5ba1b58bd1e3" />
+
 
 Mis on tar 
  
