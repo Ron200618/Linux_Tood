@@ -58,6 +58,24 @@ Muuda nüüd enda kofiguratsiooni nii, et sa saaksid banni siis, kui oled 3 kord
 
 # minu osa
 
-<img width="619" height="565" alt="image" src="https://github.com/user-attachments/assets/66fc5577-67db-4435-ae84-419ff6101441" />
+<img width="417" height="104" alt="Screenshot 2026-05-11 at 04 16 01" src="https://github.com/user-attachments/assets/0a17fb5e-2a3f-48c2-95c5-f8b19c828b2d" />
 
-<img width="587" height="459" alt="image" src="https://github.com/user-attachments/assets/8a537ad4-8e38-495c-bcad-c851125ee4a2" />
+<img width="552" height="112" alt="Screenshot 2026-05-11 at 04 16 10" src="https://github.com/user-attachments/assets/18992d4a-1f92-4ccc-85f7-aa7796c1d171" />
+
+<img width="552" height="304" alt="Screenshot 2026-05-11 at 04 16 25" src="https://github.com/user-attachments/assets/a9a137a6-1915-4c6e-84e2-f0d7ba881822" />
+
+<img width="480" height="435" alt="Screenshot 2026-05-11 at 04 16 36" src="https://github.com/user-attachments/assets/bb9c8e0d-d618-42b9-baee-151669b89202" />
+
+<img width="561" height="400" alt="Screenshot 2026-05-11 at 04 16 46" src="https://github.com/user-attachments/assets/e0fda817-8fc7-4c9a-920b-7d5d329a3db5" />
+
+<img width="561" height="318" alt="Screenshot 2026-05-11 at 04 16 54" src="https://github.com/user-attachments/assets/3e51855c-9ec3-47ef-b56b-8f1fc2b9ad35" />
+
+
+
+
+
+
+
+
+
+
