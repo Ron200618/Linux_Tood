@@ -143,45 +143,55 @@ Fstab: Koopia sinu /etc/fstab faili viimasest reast.
 
 # lahendus 
 
-<img width="491" height="307" alt="image" src="https://github.com/user-attachments/assets/d3d53260-6a3b-4387-b549-a77314b77d1e" />
+<img width="408" height="288" alt="Screenshot 2026-05-11 at 09 01 22" src="https://github.com/user-attachments/assets/d66afd05-73fc-401c-9306-8016dc4fe16f" />
+
 
 # 1.2
-<img width="577" height="98" alt="image" src="https://github.com/user-attachments/assets/386cd1ac-2127-4d5c-90c5-6d979f8112f3" />
+<img width="563" height="94" alt="Screenshot 2026-05-11 at 09 01 36" src="https://github.com/user-attachments/assets/d182092d-5eea-4f6e-bd1f-988d6f7ba31a" />
+
 
 # 1.3
-<img width="915" height="256" alt="image" src="https://github.com/user-attachments/assets/55768838-123d-446f-add8-85dbe850fbb4" />
+<img width="563" height="153" alt="Screenshot 2026-05-11 at 09 01 43" src="https://github.com/user-attachments/assets/d35f9a1a-2cb5-4feb-86ba-ec66e90e36d5" />
+
 
 # 1.4
-<img width="915" height="154" alt="image" src="https://github.com/user-attachments/assets/01ea481b-8659-4a3f-967f-d2c5276040b7" />
+<img width="563" height="92" alt="Screenshot 2026-05-11 at 09 01 49" src="https://github.com/user-attachments/assets/9bf8142d-93b6-443e-a4cc-63e86770b9db" />
+
 
 # 1.5
 Mõned failid on liiga suured ja piirang on 4GB 
+
 # 1.6
-<img width="917" height="599" alt="image" src="https://github.com/user-attachments/assets/0ad95219-2e7d-418d-b960-138bec56974b" />
+<img width="563" height="369" alt="Screenshot 2026-05-11 at 09 02 12" src="https://github.com/user-attachments/assets/6974ac3f-fcd9-4587-a35c-7aab2dea664f" />
+
 
 # 2.1
-<img width="854" height="212" alt="image" src="https://github.com/user-attachments/assets/cd1feba1-f5d4-4ba9-b9e2-26a1774d2e83" />
+<img width="526" height="133" alt="Screenshot 2026-05-11 at 09 03 45" src="https://github.com/user-attachments/assets/7b59af46-f2e6-4b95-9736-5cc7d9c57c09" />
+
 
 
 # 2.2
-<img width="919" height="306" alt="image" src="https://github.com/user-attachments/assets/12f5a7a9-a722-4263-8b32-eae60748cb79" />
+<img width="551" height="187" alt="Screenshot 2026-05-11 at 09 03 54" src="https://github.com/user-attachments/assets/6434d386-96ef-40f5-a03e-c8afa435ad87" />
+
 
 
 # 2.4
 Chmod ei anna veateadet, kuna NTFS failisüsteem ei saa Linux hallata failide õigusi. NTFS kasutab oma mudelit ACL, mida linux ei toeta 100%. Mount Options maarab ara kuidas failide õiguseid käsitletakse. 
 
 # 2.5
-<img width="947" height="591" alt="image" src="https://github.com/user-attachments/assets/ee6da725-22bd-4cdf-833d-61021ca8876e" />
+<img width="551" height="356" alt="2 5" src="https://github.com/user-attachments/assets/2cf565fb-3e86-4ac4-99f5-a6c9eb0c9ae0" />
 
-<img width="927" height="119" alt="image" src="https://github.com/user-attachments/assets/a46a969c-4d89-459b-a817-ae8903a4e647" />
+<img width="551" height="66" alt="2 5-2" src="https://github.com/user-attachments/assets/2511f45f-f22b-4d53-9493-4cf2ca339cb9" />
+
 
 Ei luba luua uut partitsooni, mingil põhjusel, seega skippin selle osa ig. 
 
 # 3.1
-<img width="913" height="337" alt="image" src="https://github.com/user-attachments/assets/87dae862-431d-4bc9-ad1f-eee9a22416ee" />
+<img width="555" height="204" alt="Screenshot 2026-05-11 at 09 04 36" src="https://github.com/user-attachments/assets/5d2e94b2-5eae-48ef-86eb-245e6d7ed010" />
+
 
 # 3.2
-<img width="928" height="466" alt="image" src="https://github.com/user-attachments/assets/80f242d0-c630-474a-8810-62fe30cd4c32" />
+<img width="563" height="280" alt="Screenshot 2026-05-11 at 09 04 57" src="https://github.com/user-attachments/assets/c6b16b3b-bba6-410f-ba5c-fa84d924ae2d" />
 
 
 # 3.3
@@ -189,8 +199,11 @@ Töötas
 
 # 3.4
 ext2
-<img width="637" height="241" alt="image" src="https://github.com/user-attachments/assets/cffb3216-af97-4bd3-b899-b0b6f24fd476" />
+<img width="388" height="143" alt="3 4" src="https://github.com/user-attachments/assets/5b965dc2-cbc1-41af-8e72-a8dfc97a1bb1" />
+
 ext1
+<img width="569" height="87" alt="3 4-2" src="https://github.com/user-attachments/assets/bb1f765f-d235-400d-85e7-c2b6cd586491" />
+
 
 
 
@@ -202,3 +215,75 @@ Journaling tähendab, et failisüsteem peab spetsiaalset logi (journal), kuhu sa
 ext2 ei kasuta journaling’ut, mis teeb selle ebaturvalisemaks. 
 
 # 4.1
+<img width="569" height="352" alt="Screenshot 2026-05-11 at 09 05 50" src="https://github.com/user-attachments/assets/62136fda-48a1-40e3-9515-5eb2fd213243" />
+
+# 4.2
+<img width="569" height="118" alt="Screenshot 2026-05-11 at 09 05 58" src="https://github.com/user-attachments/assets/ac93cea8-143c-4b87-846c-21afa96114f8" />
+
+
+# 4.3
+<img width="569" height="107" alt="Screenshot 2026-05-11 at 09 06 04" src="https://github.com/user-attachments/assets/18d93676-6bd3-4fab-86cd-40f8d846eb84" />
+
+
+# 4.4
+<img width="436" height="49" alt="Screenshot 2026-05-11 at 09 06 11" src="https://github.com/user-attachments/assets/6dfdc333-ba16-47f4-9485-81b3a35211c0" />
+
+
+# 5.1
+<img width="436" height="59" alt="Screenshot 2026-05-11 at 09 06 18" src="https://github.com/user-attachments/assets/2dfed630-57fd-4371-8bcf-96dbe1290a68" />
+
+# 5.2
+<img width="523" height="377" alt="Screenshot 2026-05-11 at 09 06 30" src="https://github.com/user-attachments/assets/058e9810-f05d-4aba-aba5-805b956b12f6" />
+
+
+# 5.3
+<img width="523" height="30" alt="Screenshot 2026-05-11 at 09 06 37" src="https://github.com/user-attachments/assets/3dea7b54-b53d-415f-9a03-370871013604" />
+
+
+# 5.4
+<img width="564" height="278" alt="Screenshot 2026-05-11 at 09 06 46" src="https://github.com/user-attachments/assets/21d7cd6a-6e5c-4538-9362-99708f4a9cc2" />
+
+# 5.5
+<img width="564" height="306" alt="Screenshot 2026-05-11 at 09 06 56" src="https://github.com/user-attachments/assets/8df34c89-210e-4f26-afb8-2680e98245a9" />
+
+
+# 5.6
+<img width="564" height="60" alt="Screenshot 2026-05-11 at 09 07 05" src="https://github.com/user-attachments/assets/e9ad4abc-6ef9-4845-90ed-9c5c0a12476c" />
+
+
+# 6.1
+<img width="564" height="60" alt="Screenshot 2026-05-11 at 09 07 09" src="https://github.com/user-attachments/assets/b31fa7f9-3745-48ff-938d-70691d45ca76" />
+
+# 6.2
+<img width="564" height="248" alt="Screenshot 2026-05-11 at 09 07 15" src="https://github.com/user-attachments/assets/5fe0a5d5-8144-4ec9-933e-90119632c513" />
+
+
+# 6.3
+<img width="508" height="36" alt="Screenshot 2026-05-11 at 09 07 24" src="https://github.com/user-attachments/assets/764d3352-d1a4-4c6d-8bbe-d2756e27dbad" />
+
+# 7.0
+FAT32 vs exFAT
+
+FAT32 max failisuurus 4 GB → viga: “File is too large for the destination file system”
+exFAT toetab suuri faile → piirang puudub
+
+Permissions (NTFS)
+NTFS kasutab Windowsi ACL-e, Linux kasutab POSIX õigusi
+Linuxis õigused emuleeritakse → turvarisk, õigusi ei saa usaldusväärselt hallata
+
+Journaling (ext2 vs ext4)
+
+ext2: puudub journal → fsck aeglane, palju vigu
+ext4: journaling → kiire taastumine, vähem vigu
+Journal salvestab muudatused enne kettale kirjutamist
+
+Inode
+df -i näitab inode’e
+inode’id otsas → uusi faile ei saa luua, teenused võivad seiskuda
+
+LVM
+lvextend -L +5G /dev/vg/lv
+resize2fs /dev/vg/lv
+
+fstab
+/dev/vg/lv /mnt/data ext4 defaults 0 2
