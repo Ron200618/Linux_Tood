@@ -14,35 +14,45 @@ kellel on kontoris üks Linux-server. See server peab tegema kolm asja:
 
 1 Süsteemi ettevalmistus ja pakettide haldus
 1. Veendu, et süsteem on uuendatud.
-   <img width="895" height="155" alt="image" src="https://github.com/user-attachments/assets/fc7e549b-ba13-4916-bbd4-5668c266481d" />
+   
+<img width="724" height="123" alt="siit edasi on opsi asjad" src="https://github.com/user-attachments/assets/3c9a8284-ff3d-4901-a648-ad2c5ae56fd8" />
+
 
 
 3. Kuna Driim OÜ ei soovi iga päev manuaalselt uuendis teha, siis võiksime selle tegevuse automatiseerida ja ajastada.
 Teeme scripti, mis kontrollub uuendusi ja paneb selle logifaili kirja.
 Linuxi serverites tehakse tavaliselt logifailid kasuta /var/log/
 Kuna tavaliselt /var/log/ kaust on root kasutaja oma ja me ei taha, et seal midagi katki läheks (by default sinu kasutajal ei olegi õigusi et sinna uusi faile jne teha), siis turvalisuse huvides teeme endale uue alamkausta driimou (ettevõtte nimi), paneme selle kausta omanikuks ennast ning teeme sinna kasuta sisse update_check.log faili.
-<img width="949" height="428" alt="image" src="https://github.com/user-attachments/assets/55c13b99-a562-4ef1-8182-b1e30e24daf9" />
+
+<img width="724" height="283" alt="Screenshot 2026-05-11 at 06 52 07" src="https://github.com/user-attachments/assets/907ebce0-b06e-4762-b336-7d20851e0818" />
+
 
 Nii, kui meil on olemas logide fail, siis me tahame teha scripti mis kontrollib uuendusi. Varasemalt olete teinud scriptifailid endale mugavas kohas, nüüd teeme need kausta /usr/local/bin <- see on default koht kuhu tavaliselt system-wide scriptid paigutatakse. 
 Lähme sinna kausta ning teeme uue scripti faili.
 
-<img width="977" height="603" alt="image" src="https://github.com/user-attachments/assets/d88bfd33-939c-470a-9de2-aa6b31b9d3a4" />
+<img width="724" height="297" alt="Screenshot 2026-05-11 at 06 52 24" src="https://github.com/user-attachments/assets/0cf9fb9d-9abc-4aef-815a-9c56a1e664e9" />
+
 
 Nii, nüüd saame scripti kirjutama hakata - selleks, et kontrollida mitu upgradable packagit meil on, samme kasutada commandi:
 "apt list --upgradable | wc -l"
 See command vaatab mitu upgradable asja meil on, ja wc -l väljastab meil ridade arvu, kui kõik on uuendatud, peaks tulemus olema 1.
-<img width="996" height="530" alt="image" src="https://github.com/user-attachments/assets/eb84655f-8ef2-4d97-8781-932d74465384" />
+
+<img width="724" height="356" alt="Screenshot 2026-05-11 at 06 52 30" src="https://github.com/user-attachments/assets/5bf74035-0270-4b7a-8ed2-fc44253422f4" />
+
 
 Nagu minu pildi pealt näha on, siis "sudo apt update" väljastas et kõik packagid on up to date, ja eelnev command väljastas vastuseks "1".
 Tee script mis kontrollib mitu rida see eelnev command väljastab, ja kui see väljastab 1 - siis logifaili kirjutatakse et everything is up to date koos kuupäevaga, ja kui on suurem kui üks, siis kirjutatakse "$(updates) uuendust on saadaval $date"
 
 Lisan kuvatõmmise näite koodist (ei ole 100% tehtud), pane tähele, et kui me updates arvu väljastame, siis me lahutame sellest 1, sest by default see updates annab meil vastuse 1, kui meil on 0 uuendust aadaval.
 
-<img width="1060" height="313" alt="image" src="https://github.com/user-attachments/assets/1c193f3b-1997-4431-8cc6-213bf4cbd405" />
+<img width="724" height="176" alt="Screenshot 2026-05-11 at 06 52 36" src="https://github.com/user-attachments/assets/17be85fc-409a-4b1c-a27f-20bea9c630b7" />
+
+
 
 Ja kui su script on lõplikult valmis, testi seda, tulemus võiks olla sarnane nagu minul:
 
-<img width="1088" height="572" alt="image" src="https://github.com/user-attachments/assets/4a996f93-8669-410b-94a6-4009bba503fe" />
+<img width="724" height="176" alt="Screenshot 2026-05-11 at 06 52 40" src="https://github.com/user-attachments/assets/5f65d06b-cea6-450a-8582-c930e31b4766" />
+
 
 Nüüd pane see script crontabi jooksma iga 30 minuti tagant. 
 
@@ -61,20 +71,24 @@ Ehk tee uus alamkaust /srv/driimou_share
 Anna sellele kaustale 770 õigused, anna selle kausta omanik ja grupp "root" ile.
 Tee uus kasutaja user1 ja samut lisa see kasutaja ka sambasse.
 
-<img width="764" height="220" alt="image" src="https://github.com/user-attachments/assets/086b670c-2674-4442-be3b-15fe15a2eaa5" />
+<img width="724" height="191" alt="Screenshot 2026-05-11 at 06 52 46" src="https://github.com/user-attachments/assets/fdf67f89-9f9f-48af-b2e9-e8cdee370953" />
+
 
 Järgnevalt ava samba konfiguratsioon:
-<img width="601" height="34" alt="image" src="https://github.com/user-attachments/assets/b6eb46cd-bbdc-4437-875f-ca0ee1a87c2d" />
+<img width="604" height="43" alt="Screenshot 2026-05-11 at 06 52 53" src="https://github.com/user-attachments/assets/faf848e6-15ec-45cd-9cd0-331a0d1db597" />
+
 
 Lisa konfiguratsiooni järgnev:
 
 
-<img width="1072" height="849" alt="image" src="https://github.com/user-attachments/assets/65da2e96-8aba-4a73-97b0-bad00954c0cb" />
+<img width="712" height="413" alt="Screenshot 2026-05-11 at 06 53 03" src="https://github.com/user-attachments/assets/7f8cf38a-0e1d-4794-a51c-7d473f46426b" />
+
 
 Taaskäivita samba
 Lae alla teenus smbclient
 Testime seda ning vastus võiks olla midagi sarnast:
-<img width="893" height="270" alt="image" src="https://github.com/user-attachments/assets/1746306d-a32d-42a6-8a44-a9567adea40d" />
+<img width="712" height="226" alt="Screenshot 2026-05-11 at 06 53 09" src="https://github.com/user-attachments/assets/25a42953-3c4f-424a-910f-e687d0722b6f" />
+
 
 Nüüd meil peaks olemas olema failiserver - aga kuna Driim OÜ soovib ka backuppe ja ka seda et kettaruum täis ei saaks.
 Mis me nüüd teeme? <- Scripti mis varundab faile, ning ka pakib neid kokku.
@@ -83,13 +97,24 @@ Teeme uue varunduskausta samma folderisse kus meie logid on.
 Lähme kausta kuhu me tavaliselt kõik scriptid teeme ja teeme sinna uue scripti backup.sh.
 
 Minu skript on selline:
-<img width="1039" height="179" alt="image" src="https://github.com/user-attachments/assets/40ff7f4c-6357-47a3-bc15-1b3adc0a9d1b" />
+<img width="712" height="68" alt="Screenshot 2026-05-11 at 06 53 15" src="https://github.com/user-attachments/assets/b97764f4-0a1c-4c31-aa9b-9f1d19c687b4" />
+
 
 See paneb backup folderisse pakitud (.tar.gz") faili, pakime sellepärast et ta võtaks vähe ruumi, ja sinna faili sisse paneme /srv/driimou_share kausta ja kõik logid.
 Failide pakkimine käib üldiselt "tar" käsuga ja kõik mis see tar teeb olenevalt talle järgnevatest argumentidest. Siin all on 3 pilti mis selgitavad selle võimalusi.
-<img width="797" height="670" alt="image" src="https://github.com/user-attachments/assets/96249b29-96db-48c9-a5fe-76586a31536d" />
+
+
+
+xxxs
+
+
+
+
+
 <img width="749" height="365" alt="image" src="https://github.com/user-attachments/assets/bcb2aff7-a0c2-43c6-b43e-378b60b42b08" />
+
 <img width="809" height="349" alt="image" src="https://github.com/user-attachments/assets/760176bd-418a-48d9-8be8-d17f6248a82b" />
+
 <img width="787" height="257" alt="image" src="https://github.com/user-attachments/assets/73a17771-90ef-485a-8138-7e4d20afdc8e" />
 
 Nüüd kui oleme scripti käivitanud, veendunud et kõik failid läksid driimou_shared kaustast backup, siis võime selle scripti crontabi lisada.
